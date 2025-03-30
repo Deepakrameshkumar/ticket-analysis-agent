@@ -1,4 +1,4 @@
-number,active,activity_due,assigned_to,assignment_group,business_duration,resolved_by,description,short_description,closed_at,opened_at,close_notes,state,priority
+ticket_id,active,activity_due,assigned_to,assignment_group,resolution_time,resolved_by,description,short_description,closed_at,opened_at,close_notes,state,priority
 INC36355399,FALSE,UNKNOWN,Jeril Philip,CITRIX IND SKF,0,Jeril Philip,"hello team,
 
 

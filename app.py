@@ -24,6 +24,7 @@ def index():
             
             initial_state = {"file_path": filepath}
             result = run_workflow(workflow, initial_state)
+            print("Workflow result:", result)  # Debug print to see the result
             chat_handler.set_data(result)
             
             return render_template('report.html', report=result['summary'])
