@@ -1,9 +1,9 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
+import ollama
 
 class ChatHandler:
-    def __init__(self, model_path):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-        self.model = AutoModelForCausalLM.from_pretrained(model_path)
+    def __init__(self, model_config):
+        self.model = model_config['name']
+        self.host = model_config['host']
         self.last_data = None
     
     def set_data(self, data):
@@ -20,6 +20,9 @@ class ChatHandler:
         
         Answer: """
         
-        inputs = self.tokenizer(prompt, return_tensors="pt")
-        outputs = self.model.generate(**inputs, max_new_tokens=200)
-        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        response = ollama.generate(
+            model=self.model,
+            prompt=prompt,
+            options={"max_tokens": 200}
+        )
+        return response['response']

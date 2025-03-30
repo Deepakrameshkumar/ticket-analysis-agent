@@ -1,29 +1,36 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from langgraph import Agent
+import ollama
 
-class TicketClassifierAgent(Agent):
-    def __init__(self, model_path, categories):
-        super().__init__(name="ticket_classifier")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-        self.model = AutoModelForCausalLM.from_pretrained(model_path)
+class TicketClassifierAgent:
+    def __init__(self, model_config, categories):
+        self.model = model_config['name']
+        self.host = model_config['host']
         self.categories = categories
     
+    def classify(self, description):
+        prompt = f"""Classify the following ticket description into one of these categories:
+        {', '.join(self.categories)}
+        
+        Description: {description}
+        
+        Category: """
+        
+        response = ollama.generate(
+            model=self.model,
+            prompt=prompt,
+            options={"max_tokens": 20}
+        )
+        
+        result = response['response']
+        for category in self.categories:
+            if category.lower() in result.lower():
+                return category
+        return "Uncategorized"
+    
     def process(self, state):
-        if "error" in state:
+        if state.error:
             return state
         
-        df = state["data"]
-        def classify(description):
-            prompt = f"""Classify ticket into: {', '.join(self.categories)}
-            Description: {description}
-            Category: """
-            inputs = self.tokenizer(prompt, return_tensors="pt")
-            outputs = self.model.generate(**inputs, max_new_tokens=20)
-            result = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            for cat in self.categories:
-                if cat.lower() in result.lower():
-                    return cat
-            return "Uncategorized"
-        
-        df['category'] = df['description'].apply(classify)
-        return {"data": df}
+        df = state.data
+        df['category'] = df['description'].apply(self.classify)
+        state.data = df
+        return state

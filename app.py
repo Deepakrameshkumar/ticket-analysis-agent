@@ -2,18 +2,17 @@ from flask import Flask, render_template, request
 from flask_socketio import SocketIO
 import yaml
 import os
-from src.workflow import create_workflow
+from src.workflow import create_workflow, run_workflow
 from src.chat_handler import ChatHandler
 
 app = Flask(__name__)
 socketio = SocketIO(app)
 
-# Load config
 with open('config/config.yaml', 'r') as f:
     config = yaml.safe_load(f)
 
 workflow = create_workflow(config)
-chat_handler = ChatHandler(config['model']['path'])
+chat_handler = ChatHandler(config['model'])
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -23,8 +22,7 @@ def index():
             filepath = os.path.join(config['data']['upload_dir'], file.filename)
             file.save(filepath)
             
-            # Run workflow
-            result = workflow.run({"file_path": filepath})
+            result = run_workflow(workflow, {"file_path": filepath})
             chat_handler.set_data(result)
             
             return render_template('report.html', report=result['summary'])

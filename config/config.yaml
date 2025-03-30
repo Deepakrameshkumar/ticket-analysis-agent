@@ -1,6 +1,6 @@
 model:
-  name: "llama2"
-  path: "path/to/llama2/model"
+  name: "llama2"  # The model name registered in Ollama
+  host: "http://localhost:11434"  # Default Ollama API endpoint
 data:
   upload_dir: "data/uploads"
 categories:

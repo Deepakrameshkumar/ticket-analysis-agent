@@ -1,6 +1,6 @@
-from langgraph import Agent
 
-class AutomationAnalyzerAgent(Agent):
+
+class AutomationAnalyzerAgent:
     def __init__(self, criteria):
         super().__init__(name="automation_analyzer")
         self.criteria = criteria

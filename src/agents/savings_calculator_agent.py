@@ -1,6 +1,6 @@
-from langgraph import Agent
 
-class SavingsCalculatorAgent(Agent):
+
+class SavingsCalculatorAgent:
     def __init__(self, hourly_rate, base_time):
         super().__init__(name="savings_calculator")
         self.hourly_rate = hourly_rate

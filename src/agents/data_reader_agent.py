@@ -1,7 +1,7 @@
 import pandas as pd
-from langgraph import Agent
 
-class DataReaderAgent(Agent):
+
+class DataReaderAgent:
     def __init__(self):
         super().__init__(name="data_reader")
     
