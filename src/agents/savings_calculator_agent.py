@@ -1,5 +1,3 @@
-
-
 class SavingsCalculatorAgent:
     def __init__(self, hourly_rate, base_time):
         super().__init__(name="savings_calculator")
