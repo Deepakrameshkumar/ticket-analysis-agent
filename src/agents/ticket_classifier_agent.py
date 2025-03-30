@@ -29,7 +29,6 @@ class TicketClassifierAgent:
     def process(self, state):
         if state.error:
             return state
-        
         df = state.data
         df['category'] = df['description'].apply(self.classify)
         state.data = df
