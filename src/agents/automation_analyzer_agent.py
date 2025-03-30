@@ -14,9 +14,8 @@ class AutomationAnalyzerAgent:
         return "Difficult"
     
     def process(self, state):
-        if state.error:
-            return state
-        df = state.data
+        if state.get("error"):
+            return {}
+        df = state["data"]
         df['automation_complexity'] = df['description'].apply(self.analyze)
-        state.data = df
-        return state
+        return {"data": df}

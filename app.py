@@ -22,7 +22,8 @@ def index():
             filepath = os.path.join(config['data']['upload_dir'], file.filename)
             file.save(filepath)
             
-            result = run_workflow(workflow, {"file_path": filepath})
+            initial_state = {"file_path": filepath}
+            result = run_workflow(workflow, initial_state)
             chat_handler.set_data(result)
             
             return render_template('report.html', report=result['summary'])

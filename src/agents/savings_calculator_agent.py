@@ -11,9 +11,8 @@ class SavingsCalculatorAgent:
         return manual_cost - automated_cost
     
     def process(self, state):
-        if state.error:
-            return state
-        df = state.data
+        if state.get("error"):
+            return {}
+        df = state["data"]
         df['potential_savings'] = df.apply(self.calculate, axis=1)
-        state.data = df
-        return state
+        return {"data": df}

@@ -27,9 +27,8 @@ class TicketClassifierAgent:
         return "Uncategorized"
     
     def process(self, state):
-        if state.error:
-            return state
-        df = state.data
+        if state.get("error"):
+            return {}
+        df = state["data"]
         df['category'] = df['description'].apply(self.classify)
-        state.data = df
-        return state
+        return {"data": df}

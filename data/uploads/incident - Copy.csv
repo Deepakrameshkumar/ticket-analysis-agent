@@ -1,0 +1,1442 @@
+number,active,activity_due,assigned_to,assignment_group,business_duration,resolved_by,description,short_description,closed_at,opened_at,close_notes,state,priority
+INC36355399,FALSE,UNKNOWN,Jeril Philip,CITRIX IND SKF,0,Jeril Philip,"hello team,
+
+
+citrix is not opening after click on permit.
+
+
+ 
+
+
+server -",CITRIX IS NOT OPENING THE APPLICATION,28-03-2025 19:45,21-03-2025 15:41,"Tried clearing cache and cookies, rebooting computer, and resetting Citrix workspace. Asked to click 'Permit use' if local data access is required for the application.
+User confirmed that issue is now resolved. Hence, proceeding to close the ticket.",Closed,4 - Low
+INC36361081,FALSE,UNKNOWN,Anitha Sanaboyina,CITRIX IND SKF,2941,Event Management,"EdgeX-HIGH_GC_ACTIVITY: RESOLVED Problem P-25035815 in environment SKF-11_ENV01
+Problem detected at: 17:39 (UTC) 21.03.2025 - 18:58 (UTC) 21.03.2025 (was open for 1 h 19 min)
+
+1 impacted infrastructure component
+
+Process
+com.pjx.launcher.BootstrapLauncher
+
+Long garbage-collection time
+Garbage collection is suspending process com.pjx.launcher.BootstrapLauncher on host W2935.corp.skf.net
+
+Root cause
+
+Based on our dependency analysis all incidents are part of the same overall problem.
+
+https://dxcdynatrace-io.sso.glb.platform.dxc.com/e/25353e24-ec80-454f-9151-d427658dfb1c/#problems/problemdetails;pid=2458502567355364582_1742578560000V2 
+Tags : customProperties_OS_service_exe_path:C:/INFOR/SKFKOP*/jre/bin/javaw.exe, C:/INFOR/SKFVAB*/jre/bin/javaw.exe, customProperties_Node_IP:163.157.180.57, customProperties_OS_service_exe_path:C:/INFOR/SKFKOP*/jre/bin/javaw.exe, customProperties_OS_type:windows, customProperties_Node_FQDN:W2935.corp.skf.net, customProperties_OS_service:javaw.exe, customProperties_OS_service_name:com.pjx.launcher.BootstrapLauncher",Long garbage-collection time - com.pjx.launcher.BootstrapLauncher,29-03-2025 00:45,21-03-2025 23:40,"Incident resolved due to closure of alert: Alert43578558
+
+Incident resolved automatically by return-to-normal condition detected by monitoring system.",Closed,3 - Medium
+INC36326161,FALSE,UNKNOWN,Jeril Philip,CITRIX IND SKF,0,Jeril Philip,"I have been away for 9 months due to illness and have returned to work today. 
+When trying to start Citrix Workspace (needed to access our BI server W2706), I now get this “Welcome to Citrix Workspace” window asking me to enter a “store URL” or email address. Entering my SKF e-mail address does not help here. Which URL should I enter here?",Citrix Workspace does not start as usual and does not offer me my data connections?,26-03-2025 22:45,19-03-2025 16:00,"User confirmed that issue was resolved after usage of Citrix apps was attempted via https://citrix-emea.corp.skf.net instead.
+Hence, closing this ticket.",Closed,4 - Low
+INC36312658,FALSE,UNKNOWN,Shital Shinde,CITRIX IND SKF,0,Shital Shinde,Can I please get my user ID GK0686 session cleared from W2935? I have tried logging off multiple times but cannot get this to disappear and my XA session is completely locked up.,Need user session disconnected from server,25-03-2025 20:46,18-03-2025 19:21,"User confirmed that issue got resolved after clearing the browser cache and resetting the citrix workspace.
+Hence, closing the ticket.
+
+Regards,
+Shital Shinde
+Citrix Team",Closed,4 - Low
+INC36378624,FALSE,UNKNOWN,,CITRIX IND SKF,0,Event Management,"EdgeX-LOW_DISK_SPACE: RESOLVED Problem P-25036551 in environment SKF-11_ENV01
+Problem detected at: 01:59 (UTC) 23.03.2025 - 03:04 (UTC) 23.03.2025 (was open for 1 h 5 min)
+
+1 impacted infrastructure component
+
+Host
+W3180.corp.skf.net
+
+Low disk space
+The total available space on disk C:\ is lower than 10 %
+
+Root cause
+
+Based on our dependency analysis all incidents are part of the same overall problem.
+
+https://dxcdynatrace-io.sso.glb.platform.dxc.com/e/25353e24-ec80-454f-9151-d427658dfb1c/#problems/problemdetails;pid=-7495146110342950927_1742694960000V2 
+Tags : CMDB Filtered, EDGEID:SKF-1101",Low disk space - W3180.corp.skf.net,30-03-2025 08:45,23-03-2025 08:03,"Incident resolved due to closure of alert: Alert43620890
+
+Incident resolved automatically by return-to-normal condition detected by monitoring system.",Closed,3 - Medium
+INC36211622,FALSE,UNKNOWN,Gagan Kumar,CITRIX IND SKF,107666,Anitha Sanaboyina,"
+
+
+
+",Not responding and keeps closing. I reset computer loads up fine but the Citrix loads up frozen screens,24-03-2025 06:45,12-03-2025 00:35,"We have tried to reach you through emails, we have followed the three-strike rules, but we haven't gotten any update about the reported issue.  Taking this as a passive approval, we are resolving the case. If the issue persists, please raise a new incident.
+
+",Closed,4 - Low
+INC36295379,FALSE,UNKNOWN,Shital Shinde,CITRIX IND SKF,0,Shital Shinde,"Hello,
+
+
+API Production will not open under my User name (MK7477). All other Citrix apps will open correctly and API is working under other user IDs. 
+
+
+ 
+
+
+Thanks,
+
+
+Shawn",API Production will not open App,24-03-2025 20:46,17-03-2025 19:03,"User confirmed that issue got resolved after removing the old session.
+Hence, closing the ticket.
+
+Regards,
+Shital Shinde
+Citrix Team",Closed,4 - Low
+INC36378270,FALSE,UNKNOWN,,CITRIX IND SKF,0,Event Management,"EdgeX-LOW_DISK_SPACE: RESOLVED Problem P-25036544 in environment SKF-11_ENV01
+Problem detected at: 01:09 (UTC) 23.03.2025 - 01:41 (UTC) 23.03.2025 (was open for 32 min)
+
+1 impacted infrastructure component
+
+Host
+W3180.corp.skf.net
+
+Low disk space
+The total available space on disk C:\ is lower than 10 %
+
+Root cause
+
+Based on our dependency analysis all incidents are part of the same overall problem.
+
+https://dxcdynatrace-io.sso.glb.platform.dxc.com/e/25353e24-ec80-454f-9151-d427658dfb1c/#problems/problemdetails;pid=4013651276906364341_1742691960000V2 
+Tags : CMDB Filtered, EDGEID:SKF-1101",Low disk space - W3180.corp.skf.net,30-03-2025 07:45,23-03-2025 07:12,"Incident resolved due to closure of alert: Alert43620315
+
+Incident resolved automatically by return-to-normal condition detected by monitoring system.",Closed,3 - Medium
+INC36331901,FALSE,UNKNOWN,Gagan Kumar,CITRIX IND SKF,2703,Event Management,"EdgeX-HIGH_GC_ACTIVITY: RESOLVED Problem P-25035263 in environment SKF-11_ENV01
+Problem detected at: 17:31 (UTC) 19.03.2025 - 18:46 (UTC) 19.03.2025 (was open for 1 h 15 min)
+
+1 impacted infrastructure component
+
+Process
+com.pjx.launcher.BootstrapLauncher
+
+Long garbage-collection time
+Garbage collection is suspending process com.pjx.launcher.BootstrapLauncher on host W2935.corp.skf.net
+
+Root cause
+
+Based on our dependency analysis all incidents are part of the same overall problem.
+
+https://dxcdynatrace-io.sso.glb.platform.dxc.com/e/25353e24-ec80-454f-9151-d427658dfb1c/#problems/problemdetails;pid=9140529458196530093_1742405280000V2 
+Tags : customProperties_Node_IP:163.157.180.57, customProperties_OS_type:windows, customProperties_OS_service_exe_path:C:/INFOR/SKFVAB*/jre/bin/javaw.exe, customProperties_Node_FQDN:W2935.corp.skf.net, customProperties_OS_service:javaw.exe, customProperties_OS_service_name:com.pjx.launcher.BootstrapLauncher",Long garbage-collection time - com.pjx.launcher.BootstrapLauncher,27-03-2025 00:45,19-03-2025 23:32,"Incident resolved due to closure of alert: Alert43521490
+
+Incident resolved automatically by return-to-normal condition detected by monitoring system.",Closed,3 - Medium
+INC36316920,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,23009,Sowjanya Vasantha,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w2321
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/codemaster-prod-rg/providers/microsoft.compute/virtualmachines/w2321
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/codemaster-prod-rg/providers/microsoft.compute/virtualmachines/w2321/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,26-03-2025 10:46,19-03-2025 00:06,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36318242,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16199,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T18:49:29.6854275Z
+AlertStatus : Fired
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : ehns-heartbeat-uxrjoutvksvs4
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourcegroups/rg-dxc-heartbeat/providers/microsoft.eventhub/namespaces/ehns-heartbeat-uxrjoutvksvs4
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 02:00,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36323400,FALSE,19-03-2025 13:47,Sowjanya Vasantha,CloudOps,0,Rutuja Chavan,"Alert : DXC-Critical-SNOW connectivily is Down
+Description : End-To-End information events are not reaching Service Now event table. Either the alert has been disabled/deleted or the ITSM connector is down.
+TimeGenerated : 03/19/2025 06:15:08
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : DXC-SKF-13ef-loganalyticsWorkspace
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourceGroups/dxc-maint-rg/providers/Microsoft.OperationalInsights/workspaces/DXC-SKF-13ef-loganalyticsWorkspace
+eventType : Availability
+eventResource : SNOW Connectivity
+eventFormat : WebHook
+eventProcessingSchema : 3.0",Alert : DXC-Critical-SNOW connectivily is Down,26-03-2025 17:45,19-03-2025 11:46,"Close notes copied from Parent Incident: Cancelling note: V5.00 offering upgrade is completed, hence cancelling the incidents",Closed,3 - Medium
+INC36318099,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16948,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T19:12:07.9236687Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : ehns-heartbeat-p563ilrn2cyzo
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/rg-dxc-heartbeat/providers/microsoft.eventhub/namespaces/ehns-heartbeat-p563ilrn2cyzo
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:46,19-03-2025 01:47,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36385065,TRUE,23-03-2025 21:10,Sowmya Sri Manda,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-23T13:23:27.4411039Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x2013
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2013
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,,23-03-2025 18:54,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,3 - Medium
+INC36319753,FALSE,UNKNOWN,Saranya Epuri,CloudOps,4408,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:45:40.8183502Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5348
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/citrixinfra-eus-prod-rg/providers/microsoft.compute/virtualmachines/w5348
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 05:16,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36383783,TRUE,23-03-2025 18:04,Sowmya Sri Manda,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Critical-Linux-Azure Defender Stopped
+Search Query : Syslog| where SyslogMessage matches regex 'Stopped Microsoft Defender'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Stopped 
+TimeGenerated : 2025-03-23T10:31:04.1407885Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : x2008
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2008
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Stopped,,23-03-2025 16:02,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,3 - Medium
+INC36385077,TRUE,UNKNOWN,Sowmya Sri Manda,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Alarm-Major-Windows CPU Utilisation (%): Average CounterValue > 98 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where ObjectName == 'Processor Information' and CounterName == '% Processor Utility' and InstanceName == '_Total'    | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Detect excessive CPU utilisation averaged over a time period for Windows systems
+TimeGenerated : 2025-03-23T13:24:08.3553951Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/datamyte-prod-rg/providers/microsoft.compute/virtualmachines/w2336
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/datamyte-prod-rg/providers/microsoft.compute/virtualmachines/w2336
+eventType : Performance
+eventResource : CPU
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help><h2><strong>High CPU instances detected on the VM w2336 in the last 24 hours</strong></h2>
+<!--issueDescription-->
+<p>Our diagnostics show there were several instances where Average Max CPU counter on this VM was above 85%. The calculations are based on Average Max CPU counter data for last 24 hrs, where it has been consistently above 85% for in 10 minute time window.</p>
+<!--/issueDescription-->
+<h3>Recent instances of High CPU usage table</h3>
+<br/><br/><table border='1'><tr><td align=""left""><b>Timeframe_UTC</b>&nbsp;&nbsp;</td><td align=""left"">2025-03-23 13:00:00&nbsp;</td></tr><tr><td align=""left""><b>CounterName</b>&nbsp;&nbsp;</td><td align=""left"">Percentage CPU&nbsp;</td></tr><tr><td align=""left""><b>TenMinsCPUMin</b>&nbsp;&nbsp;</td><td align=""left"">85.89&nbsp;</td></tr><tr><td align=""left""><b>TenMinsCPUMax</b>&nbsp;&nbsp;</td><td align=""left"">99.74&nbsp;</td></tr></table><br/>
+<p><strong>What can cause CPU spike on a VM?</strong></p>
+<p>High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that a component used by this application is unable to process data as efficiently as expected, that there might be a code issue, or that there are insufficient resources to handle the load that the application is handling. Here are some common factors leading to high CPU:</p>
+<ol>
+<li>A recent code change or deployment. This is mostly applicable to apps like IIS, SharePoint, SQL, or third-party applications.</li>
+<li>A recent patch, which could be an OS level patch or application level cumulative patches/fixes.</li>
+<li>Query change or outdated Indexes: SQL or Oracle data tier application also have query plan optimization as another factor. Lack of proper indexes, data changes, and so on,  sometimes lead to some queries getting more compute intensive.</li>
+<li>Azure VM-specific: there are certain processes like RDAgent, Extension specific processes (Monitoring Agent, MMA agent, Security client exe, and so on) that sometimes lead to High CPU consumption and needs to be looked from configuration or known issues perspective.</li>
+</ol>
+<p>See <a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm"">Troubleshoot high-CPU issues for Azure Windows virtual machines</a></p>
+<h2><strong>Recommended Steps</strong></h2>
+<p><a data-blade=""Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId"" button-data-blade=""button-data-blade"">Install PerfInsights</a></p>
+<p><strong>Detection: If you are unaware of the process driving high CPU consumption, for the machine w2336, you can <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/datamyte-prod-rg/providers/microsoft.compute/virtualmachines/w2336/performanceDiagnostics"">access Azure Performance Diagnostics (PerfInsights) here</a></strong> and review results directly from the Azure Portal. Azure Performance Diagnostics (PerfInsights) generates a report that contains a dedicated tab for CPU analysis. The report lists the processes per Average CPU consumption in descending order. It will indicate if the process was system-based, related to Microsoft-owned App (SQL, IIS), or a third-party process. We have a dedicated sub-tab under CPU that can be leveraged for detailed pattern analysis, per core, or per process.</p>
+<p>You may also <a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm"">download Azure Performance Diagnostics (PerfInsights)</a> and run it in your virtual machine.</p>
+<p>There are two broad approaches to resolving high CPU issues, depending upon whether the CPU usage is appropriate given the application load or because of a bug within the application:</p>
+<ol>
+<li>If it's likely due to the kind of data or user pattern, we recommend resizing to a higher VM SKU. You can read more about different <a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a> and decide on which Virtual Machine offering best suits your workload.</li>
+<li>If high CPU is caused due to an application issue, then improving the efficiency of the current application by analyzing the code for potential improvements can help resolve the issue. If the identified application is a third-party application, then engage the vendor/developer of the application.</li>
+</ol>
+<p>If you are unable to access your virtual machine via RDP or SSH, try restarting to temporarily regain access, then proceed to troubleshoot using <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/datamyte-prod-rg/providers/microsoft.compute/virtualmachines/w2336/performanceDiagnostics"">Azure Performance Diagnostics (PerfInsights)</a> to determine what is causing the CPU spike.</p>
+<p><strong>If you proceed to open a support case, attach the Azure Performance Diagnostics (PerfInsights) report for the Support Engineer to analyze.</strong></p>
+<h2><strong>Recommended Documents</strong></h2>
+<ul>
+<li><a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm"">Troubleshoot high-CPU issues for Azure Windows virtual machines</a></li>
+<li><a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights"">How to use Azure Performance Diagnostics (PerfInsights)</a></li>
+<li><a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a></li>
+<li><a href=""https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices"">Performance guidelines for SQL Server</a></li>
+</ul>
+<p>xk8aa6_DXC; HighCpuUsageAzurePortalInsight</p></azure_help>
+",Alert : DXC-Alarm-Major-Windows CPU Utilisation (%): Average CounterValue > 98 (5/15),,23-03-2025 18:55,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36320127,FALSE,UNKNOWN,Saranya Epuri,CloudOps,2373,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:19:30.3097773Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w1630
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/inflow-prod-rg/providers/microsoft.compute/virtualmachines/w1630
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 05:50,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36318329,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,15633,Lohitha Nulu,"Alert : DXC-Minor-fa-metricAlert-32xkp3xblo2ys-FunctionExceptions
+Search Query : app('/subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourceGroups/rg-dxc-sharedSecureInfra/providers/Microsoft.Insights/components/appi-dxcShared-germanywestcentral').traces | where notempty(operation_Name) and cloud_RoleName =~ 'fa-metricAlert-32xkp3xblo2ys' | extend ApplicationName = 'dxc-Heartbeat', functionName = operation_Name, functionAppName = cloud_RoleName | where severityLevel ==2 | extend SubscriptionId = '13ef3b04-b614-4a7f-a24f-b8a484b8a5d6', Resource = functionAppName, ResourceGroupName = 'rg-dxc-metricAlert' | extend ResourceId = strcat('/subscriptions/', SubscriptionId, '/resourceGroups/', ResourceGroupName, '/providers/Microsoft.Web/sites/', Resource), eventType = 'Exception', eventResource = strcat('Application - ', ApplicationName), eventFormat = 'FunctionApp', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Function triggered a minor exceptions alert. See message string for more information.
+TimeGenerated : 2025-03-18T20:38:25.5758648Z
+AlertStatus : Fired
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : fa-metricalert-32xkp3xblo2ys
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourceGroups/rg-dxc-metricAlert/providers/Microsoft.Web/sites/fa-metricalert-32xkp3xblo2ys
+eventType : Exception
+eventResource : Application - dxc-Heartbeat
+eventFormat : FunctionApp
+eventProcessingSchema : 3.0",Alert : DXC-Minor-fa-metricAlert-32xkp3xblo2ys-FunctionExceptions,26-03-2025 10:47,19-03-2025 02:09,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36318707,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,13119,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T21:20:06.6948043Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : w5042
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/so99-nonprod-rg/providers/microsoft.compute/virtualmachines/w5042
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 02:51,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36319806,FALSE,UNKNOWN,Saranya Epuri,CloudOps,4103,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:50:38.4218883Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5350
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/citrixworker-eus-prod-rg/providers/microsoft.compute/virtualmachines/w5350
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 05:21,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36252841,FALSE,UNKNOWN,Saranya Epuri,CloudOps,28800,Sowjanya Vasantha,"Alert : DXC-Alarm-Major-Windows CPU Utilisation (%): Average CounterValue > 98 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where ObjectName == 'Processor Information' and CounterName == '% Processor Utility' and InstanceName == '_Total'    | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Detect excessive CPU utilisation averaged over a time period for Windows systems
+TimeGenerated : 2025-03-14T08:28:28.9000937Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/evoko-prod-rg/providers/microsoft.compute/virtualmachines/w2527
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/evoko-prod-rg/providers/microsoft.compute/virtualmachines/w2527
+eventType : Performance
+eventResource : CPU
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help><h2><strong>High CPU instances detected on the VM w2527 in the last 24 hours</strong></h2>
+<!--issueDescription-->
+<p>Our diagnostics show there were several instances where Average Max CPU counter on this VM was above 85%. The calculations are based on Average Max CPU counter data for last 24 hrs, where it has been consistently above 85% for in 10 minute time window.</p>
+<!--/issueDescription-->
+<h3>Recent instances of High CPU usage table</h3>
+<br/><br/><table border='1'><tr><td align=""left""><b>Timeframe_UTC</b>&nbsp;&nbsp;</td><td align=""left"">2025-03-14 08:10:00&nbsp;</td></tr><tr><td align=""left""><b>CounterName</b>&nbsp;&nbsp;</td><td align=""left"">Percentage CPU&nbsp;</td></tr><tr><td align=""left""><b>TenMinsCPUMin</b>&nbsp;&nbsp;</td><td align=""left"">98.5&nbsp;</td></tr><tr><td align=""left""><b>TenMinsCPUMax</b>&nbsp;&nbsp;</td><td align=""left"">99.35&nbsp;</td></tr></table><br/>
+<p><strong>What can cause CPU spike on a VM?</strong></p>
+<p>High CPU can indicate that the application is performing many CPU-intensive tasks relative to the incoming load. This can indicate that a component used by this application is unable to process data as efficiently as expected, that there might be a code issue, or that there are insufficient resources to handle the load that the application is handling. Here are some common factors leading to high CPU:</p>
+<ol>
+<li>A recent code change or deployment. This is mostly applicable to apps like IIS, SharePoint, SQL, or third-party applications.</li>
+<li>A recent patch, which could be an OS level patch or application level cumulative patches/fixes.</li>
+<li>Query change or outdated Indexes: SQL or Oracle data tier application also have query plan optimization as another factor. Lack of proper indexes, data changes, and so on,  sometimes lead to some queries getting more compute intensive.</li>
+<li>Azure VM-specific: there are certain processes like RDAgent, Extension specific processes (Monitoring Agent, MMA agent, Security client exe, and so on) that sometimes lead to High CPU consumption and needs to be looked from configuration or known issues perspective.</li>
+</ol>
+<p>See <a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm"">Troubleshoot high-CPU issues for Azure Windows virtual machines</a></p>
+<h2><strong>Recommended Steps</strong></h2>
+<p><a data-blade=""Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId"" button-data-blade=""button-data-blade"">Install PerfInsights</a></p>
+<p><strong>Detection: If you are unaware of the process driving high CPU consumption, for the machine w2527, you can <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/evoko-prod-rg/providers/microsoft.compute/virtualmachines/w2527/performanceDiagnostics"">access Azure Performance Diagnostics (PerfInsights) here</a></strong> and review results directly from the Azure Portal. Azure Performance Diagnostics (PerfInsights) generates a report that contains a dedicated tab for CPU analysis. The report lists the processes per Average CPU consumption in descending order. It will indicate if the process was system-based, related to Microsoft-owned App (SQL, IIS), or a third-party process. We have a dedicated sub-tab under CPU that can be leveraged for detailed pattern analysis, per core, or per process.</p>
+<p>You may also <a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm"">download Azure Performance Diagnostics (PerfInsights)</a> and run it in your virtual machine.</p>
+<p>There are two broad approaches to resolving high CPU issues, depending upon whether the CPU usage is appropriate given the application load or because of a bug within the application:</p>
+<ol>
+<li>If it's likely due to the kind of data or user pattern, we recommend resizing to a higher VM SKU. You can read more about different <a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a> and decide on which Virtual Machine offering best suits your workload.</li>
+<li>If high CPU is caused due to an application issue, then improving the efficiency of the current application by analyzing the code for potential improvements can help resolve the issue. If the identified application is a third-party application, then engage the vendor/developer of the application.</li>
+</ol>
+<p>If you are unable to access your virtual machine via RDP or SSH, try restarting to temporarily regain access, then proceed to troubleshoot using <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/evoko-prod-rg/providers/microsoft.compute/virtualmachines/w2527/performanceDiagnostics"">Azure Performance Diagnostics (PerfInsights)</a> to determine what is causing the CPU spike.</p>
+<p><strong>If you proceed to open a support case, attach the Azure Performance Diagnostics (PerfInsights) report for the Support Engineer to analyze.</strong></p>
+<h2><strong>Recommended Documents</strong></h2>
+<ul>
+<li><a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-high-cpu-issues-azure-windows-vm"">Troubleshoot high-CPU issues for Azure Windows virtual machines</a></li>
+<li><a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights"">How to use Azure Performance Diagnostics (PerfInsights)</a></li>
+<li><a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a></li>
+<li><a href=""https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices"">Performance guidelines for SQL Server</a></li>
+</ul>
+<p>dx1arg_DXC; HighCpuUsageAzurePortalInsight</p></azure_help>
+",Alert : DXC-Alarm-Major-Windows CPU Utilisation (%): Average CounterValue > 98 (5/15),24-03-2025 09:45,14-03-2025 14:00, Close notes: Now the CPU is under the threshold. Hence closing the incident.,Closed,2 - High
+INC36304212,FALSE,UNKNOWN,Sowjanya Vasantha,CloudOps,0,Sowjanya Vasantha,"Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where ObjectName=='Memory' and CounterName=='% Committed Bytes In Use'      | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Average virtual machine memory consumption exceeds a given threshold over the chosen aggregation period.
+TimeGenerated : 2025-03-18T02:54:27.3138621Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5615
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5615
+eventType : Capacity
+eventResource : Memory
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help><h2><strong>High Memory Pressure instances detected on the VM w5615 in last 24 hrs?</strong></h2>
+<!--issueDescription-->
+<p>Our diagnostics show there were several instances where Average Memory Pressure on this VM was above 100% over the last 24 hours.</p>
+<!--/issueDescription-->
+<h3>Performance Table</h3>
+<br/><table><tr><th><b>Timeframe_UTC</b></th><th><b>CounterName</b></th><th><b>TenMinsMemAvgPressure</b></th></tr><tr><td align=""left"">2025-03-18 02:40:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122.5</td></tr><tr><td align=""left"">2025-03-18 02:30:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122.5</td></tr><tr><td align=""left"">2025-03-18 02:20:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">121.5</td></tr><tr><td align=""left"">2025-03-18 02:10:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">121.5</td></tr><tr><td align=""left"">2025-03-18 02:00:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122.5</td></tr><tr><td align=""left"">2025-03-18 01:50:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122</td></tr><tr><td align=""left"">2025-03-18 01:40:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122</td></tr><tr><td align=""left"">2025-03-18 01:30:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">121</td></tr><tr><td align=""left"">2025-03-18 01:20:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">121</td></tr><tr><td align=""left"">2025-03-18 01:10:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122</td></tr></table>
+<p><strong>What can cause Memory Pressure on a VM?</strong></p>
+<ul>
+<li>The load pattern is Memory intensive, in which case the consistent/intermittent Memory Pressure is expected.</li>
+<li>Was there a recent code change which might be causing memory leak?</li>
+<li>Was there a recent change in number of users or spike in amount of data processing?</li>
+<li>Does it correlate with a job processing e.g. maintenance, indexing, cube processing, end of day reporting?</li>
+<li>A system process after a recent OS patch, could be causing memory leak?</li>
+</ul>
+<h2><strong>Recommended Steps</strong></h2>
+<p><a data-blade=""Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId"" button-data-blade=""button-data-blade"">Install PerfInsights</a></p>
+<p><strong>Detection: If we are unaware of the process causing high Memory Pressure, then for the machine w5615, you can <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5615/performanceDiagnostics"">access Azure Performance Diagnostics (PerfInsights) here</a></strong> and review results directly from the Azure portal. You may also <a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm"">download Azure Performance Diagnostics (PerfInsights)</a> and run it in your virtual machine. PerfInsights generates a report that has a dedicated tab for Memory analysis.</p>
+<p>If you are unable to access your virtual machine via RDP or SSH you can try restarting to temporarily regain access, then proceed to troubleshoot using <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5615/performanceDiagnostics"">Azure Performance Diagnostics (PerfInsights)</a> to determine what is causing the memory pressure.</p>
+<p><strong>If it is expected due to the kind of data or user pattern, then we recommended resizing to higher VM SKU</strong>. You can read about different <a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a> and decide on which Virtual Machine offering best suits your workload.</p>
+<h2><strong>Recommended Documents</strong></h2>
+<ul>
+<li><a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights"">How to use Azure Performance Diagnostics (PerfInsights)</a></li>
+<li><a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a></li>
+</ul>
+<p>7mef5j_DXC; HighMemoryUsageAzurePortalInsight</p></azure_help>
+",Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15),25-03-2025 10:45,18-03-2025 08:25,"issue: Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15)
+Findings: Upon checking due to high memory, server is in hung state
+Steps taken: We checked with the RPA team and rebooted the server and now memory is under the threshold.
+Remarks: NA
+Next Update: Memory is under the threshold. Hence closing the incident.",Closed,2 - High
+INC36320218,FALSE,UNKNOWN,Saranya Epuri,CloudOps,1682,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:30:38.7664224Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x3002
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/bfwcouplingservices-prod-rg/providers/microsoft.compute/virtualmachines/x3002
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 06:01,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36324009,FALSE,19-03-2025 14:58,Sowjanya Vasantha,CloudOps,0,Rutuja Chavan,"Alert : DXC-Critical-SNOW connectivily is Down
+Description : End-To-End information events are not reaching Service Now event table. Either the alert has been disabled/deleted or the ITSM connector is down.
+TimeGenerated : 03/19/2025 07:15:13
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : DXC-SKF-cb6c-loganalyticsWorkspace
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourceGroups/dxc-maint-rg/providers/Microsoft.OperationalInsights/workspaces/DXC-SKF-cb6c-loganalyticsWorkspace
+eventType : Availability
+eventResource : SNOW Connectivity
+eventFormat : WebHook
+eventProcessingSchema : 3.0",Alert : DXC-Critical-SNOW connectivily is Down,26-03-2025 17:45,19-03-2025 12:46,"Close notes copied from Parent Incident: Cancelling note: V5.00 offering upgrade is completed, hence cancelling the incidents",Closed,3 - Medium
+INC36320262,FALSE,UNKNOWN,Saranya Epuri,CloudOps,1402,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:35:36.682729Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5694
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/peerlegacy-prod-rg/providers/microsoft.compute/virtualmachines/w5694
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 06:06,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36381702,TRUE,UNKNOWN,Rutuja Chavan,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine agent unresponsive or unavailable. VM could be down, hung or VM Agent not functioning
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w1979
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/kofaxkta-prod-rg/providers/microsoft.compute/virtualmachines/w1979
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/kofaxkta-prod-rg/providers/microsoft.compute/virtualmachines/w1979/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,,23-03-2025 11:56,"Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36319725,FALSE,UNKNOWN,Saranya Epuri,CloudOps,4572,Lohitha Nulu,"Alert : DXC-Major-Logic App-DXC-SKFR-7a11-LA-SelfHeal-RunFailurePercentage
+Description : Version:release-v5.00 Run Failure Percentage has exceeded 0% in the last 30 minutes
+TimeGenerated : 2025-03-18T23:42:56.8939437Z
+AlertStatus : Fired
+MetricDetails : [{""metricName"":""RunFailurePercentage"",""metricNamespace"":""Microsoft.Logic/workflows"",""operator"":""GreaterThan"",""threshold"":""0"",""timeAggregation"":""Average"",""dimensions"":[],""metricValue"":16.2790697674419,""webTestName"":null}]
+ResourceGroup : dxc-maint-rg
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : dxc-skfr-7a11-la-selfheal
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/dxc-maint-rg/providers/microsoft.logic/workflows/dxc-skfr-7a11-la-selfheal
+eventType : Availability
+eventResource : Workflow
+eventFormat : MetricAlert
+eventProcessingSchema : 3.0",Alert : DXC-Major-Logic App-DXC-SKFR-7a11-LA-SelfHeal-RunFailurePercentage,26-03-2025 10:48,19-03-2025 05:13,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36384704,TRUE,UNKNOWN,Lohitha Nulu,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Windows OS-Out of paged pool memory
+Search Query : Event | where EventID in (2019, 2020)  | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Performance', eventResource = 'Windows Virtual Machine', eventFormat = 'Event', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 The server was unable to allocate from the system paged pool because the pool was empty.
+TimeGenerated : 2025-03-23T12:46:11.6501835Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w0730.corp.skf.net
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/factivity-prod-rg/providers/microsoft.compute/virtualmachines/w0730
+eventType : Performance
+eventResource : Windows Virtual Machine
+eventFormat : Event
+eventProcessingSchema : 3.0",Alert : DXC-Major-Windows OS-Out of paged pool memory,,23-03-2025 18:17,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36385384,TRUE,UNKNOWN,Lohitha Nulu,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5201
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/pim-prod-rg/providers/microsoft.compute/virtualmachines/w5201
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/pim-prod-rg/providers/microsoft.compute/virtualmachines/w5201/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,,23-03-2025 19:26,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36318240,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16199,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T19:19:32.5743807Z
+AlertStatus : Fired
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : dxc-maint-kv-13ef
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourcegroups/dxc-maint-rg/providers/microsoft.keyvault/vaults/dxc-maint-kv-13ef
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 02:00,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36320216,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,1689,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:30:38.7664224Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x2012
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2012
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 06:01,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36318093,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16956,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T17:57:06.4867749Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : scope
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/dxc-maint-rg/providers/microsoft.logic/workflows/dxc-skf-cb6c-la-selfheal/runs/08584592864779702341343443906cu30/actions/scope
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 01:47,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36318094,FALSE,UNKNOWN,Saranya Epuri,CloudOps,16954,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T17:57:06.4867749Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : 08584592864779702341343443906cu30
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/dxc-maint-rg/providers/microsoft.logic/workflows/dxc-skf-cb6c-la-selfheal/runs/08584592864779702341343443906cu30
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:47,19-03-2025 01:47,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36303830,FALSE,18-03-2025 09:44,Sowjanya Vasantha,CloudOps,0,Rutuja Chavan,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-18T02:13:16.8280541Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0686
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/aero-dig-prod-rg/providers/microsoft.compute/virtualmachines/x0686
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,25-03-2025 22:46,18-03-2025 07:43,"Close notes copied from Parent Incident: Cancelling note: We not found any issue with defender, getting false alerts, we have raised jira, hence cancelling the incidents",Closed,3 - Medium
+INC36303837,FALSE,18-03-2025 09:46,Sowjanya Vasantha,CloudOps,0,Rutuja Chavan,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-18T02:13:16.8280541Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0604
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/skftoleranceportal-prod-rg/providers/microsoft.compute/virtualmachines/x0604
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,25-03-2025 22:45,18-03-2025 07:44,"Close notes copied from Parent Incident: Cancelling note: We not found any issue with defender, getting false alerts, we have raised jira, hence cancelling the incidents",Closed,3 - Medium
+INC36345658,FALSE,20-03-2025 23:46,Rutuja Chavan,CloudOps,564,Saranya Epuri,"Alert : DXC-Critical-SNOW connectivily is Down
+Description : End-To-End information events are not reaching Service Now event table. Either the alert has been disabled/deleted or the ITSM connector is down.
+TimeGenerated : 03/20/2025 16:15:07
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : DXC-SKF-13ef-loganalyticsWorkspace
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourceGroups/dxc-maint-rg/providers/Microsoft.OperationalInsights/workspaces/DXC-SKF-13ef-loganalyticsWorkspace
+eventType : Availability
+eventResource : SNOW Connectivity
+eventFormat : WebHook
+eventProcessingSchema : 3.0",Alert : DXC-Critical-SNOW connectivily is Down,27-03-2025 22:45,20-03-2025 21:46,"Snow connectivity is up only. Hence, cancelling the Inc.",Closed,3 - Medium
+INC36320128,FALSE,UNKNOWN,Saranya Epuri,CloudOps,2373,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:19:30.3097773Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5511
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/visual-comp-prod-rg/providers/microsoft.compute/virtualmachines/w5511
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 05:50,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36376106,FALSE,23-03-2025 06:20,Saranya Epuri,CloudOps,0,Saranya Epuri,"Alert : DXC-Critical-Linux-Azure Defender Stopped
+Search Query : Syslog| where SyslogMessage matches regex 'Stopped Microsoft Defender'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Stopped 
+TimeGenerated : 2025-03-22T20:45:36.8497028Z
+AlertStatus : Fired
+SubscriptionId : d3d844e7-ef8a-410b-bb87-b62f7da82004
+Resource : x1001
+ResourceId : /subscriptions/d3d844e7-ef8a-410b-bb87-b62f7da82004/resourcegroups/csr-prod-rg/providers/microsoft.compute/virtualmachines/x1001
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Stopped,30-03-2025 06:45,23-03-2025 02:16,"As part of patching activity, I have started the VM. Hence, cancelling the Inc.",Closed,3 - Medium
+INC36317039,FALSE,UNKNOWN,Saranya Epuri,CloudOps,22442,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T16:25:09.2298345Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : w5091
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/planif-nonprod-rg/providers/microsoft.compute/virtualmachines/w5091
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 00:15,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36287258,FALSE,UNKNOWN,Lohitha Nulu,CloudOps,0,Lohitha Nulu,"Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where ObjectName=='Memory' and CounterName=='% Committed Bytes In Use'      | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Average virtual machine memory consumption exceeds a given threshold over the chosen aggregation period.
+TimeGenerated : 2025-03-16T22:52:26.9302184Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5505
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5505
+eventType : Capacity
+eventResource : Memory
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help><h2><strong>High Memory Pressure instances detected on the VM w5505 in last 24 hrs?</strong></h2>
+<!--issueDescription-->
+<p>Our diagnostics show there were several instances where Average Memory Pressure on this VM was above 100% over the last 24 hours.</p>
+<!--/issueDescription-->
+<h3>Performance Table</h3>
+<br/><table><tr><th><b>Timeframe_UTC</b></th><th><b>CounterName</b></th><th><b>TenMinsMemAvgPressure</b></th></tr><tr><td align=""left"">2025-03-16 22:30:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">123</td></tr><tr><td align=""left"">2025-03-16 22:20:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">122</td></tr><tr><td align=""left"">2025-03-16 22:10:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">121.5</td></tr><tr><td align=""left"">2025-03-16 22:00:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">120.5</td></tr><tr><td align=""left"">2025-03-16 21:50:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">119.5</td></tr><tr><td align=""left"">2025-03-16 21:40:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">119</td></tr><tr><td align=""left"">2025-03-16 21:30:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">119.5</td></tr><tr><td align=""left"">2025-03-16 21:20:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">120.5</td></tr><tr><td align=""left"">2025-03-16 21:10:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">120</td></tr><tr><td align=""left"">2025-03-16 21:00:00</td><td align=""left"">VM\Average Pressure</td><td align=""left"">119.5</td></tr></table>
+<p><strong>What can cause Memory Pressure on a VM?</strong></p>
+<ul>
+<li>The load pattern is Memory intensive, in which case the consistent/intermittent Memory Pressure is expected.</li>
+<li>Was there a recent code change which might be causing memory leak?</li>
+<li>Was there a recent change in number of users or spike in amount of data processing?</li>
+<li>Does it correlate with a job processing e.g. maintenance, indexing, cube processing, end of day reporting?</li>
+<li>A system process after a recent OS patch, could be causing memory leak?</li>
+</ul>
+<h2><strong>Recommended Steps</strong></h2>
+<p><a data-blade=""Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId"" button-data-blade=""button-data-blade"">Install PerfInsights</a></p>
+<p><strong>Detection: If we are unaware of the process causing high Memory Pressure, then for the machine w5505, you can <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5505/performanceDiagnostics"">access Azure Performance Diagnostics (PerfInsights) here</a></strong> and review results directly from the Azure portal. You may also <a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics#install-and-run-performance-diagnostics-on-your-vm"">download Azure Performance Diagnostics (PerfInsights)</a> and run it in your virtual machine. PerfInsights generates a report that has a dedicated tab for Memory analysis.</p>
+<p>If you are unable to access your virtual machine via RDP or SSH you can try restarting to temporarily regain access, then proceed to troubleshoot using <a href=""https://portal.azure.com/#@microsoft.onmicrosoft.com/resource//subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5505/performanceDiagnostics"">Azure Performance Diagnostics (PerfInsights)</a> to determine what is causing the memory pressure.</p>
+<p><strong>If it is expected due to the kind of data or user pattern, then we recommended resizing to higher VM SKU</strong>. You can read about different <a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a> and decide on which Virtual Machine offering best suits your workload.</p>
+<h2><strong>Recommended Documents</strong></h2>
+<ul>
+<li><a href=""https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights"">How to use Azure Performance Diagnostics (PerfInsights)</a></li>
+<li><a href=""https://azure.microsoft.com/pricing/details/virtual-machines/series/"">Azure Virtual Machine offerings</a></li>
+</ul>
+<p>gqr1pl_DXC; HighMemoryUsageAzurePortalInsight</p></azure_help>
+",Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15),24-03-2025 07:45,17-03-2025 04:23,"
+Issue: Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15)
+Findings: Memory utilization is above the threshold at the time of alert was triggered.
+Steps: We logged into the VM and checked the Memory status on the VM -w5505
+Closing Notes: Now the Memory% is under the threshold. No corrective action is required from Cloud Ops. Hence resolving the incident.",Closed,2 - High
+INC36372871,FALSE,UNKNOWN,Harshitha P,CloudOps,0,Harshitha P,"Alert : DXC-Major-Windows OS-Out of paged pool memory
+Search Query : Event | where EventID in (2019, 2020)  | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Performance', eventResource = 'Windows Virtual Machine', eventFormat = 'Event', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 The server was unable to allocate from the system paged pool because the pool was empty.
+TimeGenerated : 2025-03-22T13:39:19.9652677Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : W1686.corp.skf.net
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/qlikview-prod-rg/providers/microsoft.compute/virtualmachines/w1686
+eventType : Performance
+eventResource : Windows Virtual Machine
+eventFormat : Event
+eventProcessingSchema : 3.0",Alert : DXC-Major-Windows OS-Out of paged pool memory,29-03-2025 23:45,22-03-2025 19:10,"issue: DXC-Major-Windows OS-Out of paged pool memory 
+Findings:c: drive is set with no paging file and temporary storage is not present in the system
+Steps Taken: We don't change anything in server as already the memory set to be required state.
+c: drive is set with no paging file and temporary storage is not present in the system. Hence no action required from CloudOps. We are closing the incident.",Closed,2 - High
+INC36320217,FALSE,UNKNOWN,Saranya Epuri,CloudOps,1688,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:30:38.7664224Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5690
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/citrixinfra-eus-prod-rg/providers/microsoft.compute/virtualmachines/w5690
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 06:01,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36320180,FALSE,UNKNOWN,Saranya Epuri,CloudOps,2000,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:25:35.8921097Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5248
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/ccure9000-prod-rg/providers/microsoft.compute/virtualmachines/w5248
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 05:56,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36303889,FALSE,18-03-2025 09:52,Sowjanya Vasantha,CloudOps,0,Rutuja Chavan,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-18T02:18:16.5331199Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0728
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/tim-prod-rg/providers/microsoft.compute/virtualmachines/x0728
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,25-03-2025 22:46,18-03-2025 07:49,"Close notes copied from Parent Incident: Cancelling note: We not found any issue with defender, getting false alerts, we have raised jira, hence cancelling the incidents",Closed,3 - Medium
+INC36280781,FALSE,UNKNOWN,Shanthi .,CloudOps,0,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Windows OS-Netlogon service
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Windows OS-Netlogon service' | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Authentication', eventResource = 'Netlogon Service', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v4.13 Self-heal attempt on re-establishing connection to Logon server has failed.
+TimeGenerated : 2025-03-16T08:16:34.2954979Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : w1604.corp.skf.net
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/qlikview-prod-rg/providers/microsoft.compute/virtualmachines/w1604
+eventType : Authentication
+eventResource : Netlogon Service
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Windows OS-Netlogon service,24-03-2025 10:45,16-03-2025 13:47,"issue: Alert : DXC-Major-Selfheal-Windows OS-Netlogon service
+Why we are cancelling the alert: Netlogon service is running fine, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36289349,FALSE,UNKNOWN,Sowjanya Vasantha,CloudOps,0,Sowjanya Vasantha,"Alert : DXC-Major-Windows OS-Out of paged pool memory
+Search Query : Event | where EventID in (2019, 2020)  | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Performance', eventResource = 'Windows Virtual Machine', eventFormat = 'Event', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v4.13 The server was unable to allocate from the system paged pool because the pool was empty.
+TimeGenerated : 2025-03-17T04:11:03.2442346Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : W2837.corp.skf.net
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w2837
+eventType : Performance
+eventResource : Windows Virtual Machine
+eventFormat : Event
+eventProcessingSchema : 3.0",Alert : DXC-Major-Windows OS-Out of paged pool memory,24-03-2025 12:46,17-03-2025 09:42,"Issue: Alert : DXC-Major-Windows OS-Out of paged pool memory
+Findings: Upon checking C:drive is set with system managed and there is no temporary drive.
+Steps taken: We checked the virtual memory of c:drive
+Remarks:NA
+Next Update: C:drive is set with system managed and there is no temporary drive. As there is no action is pending. Hence closing the ctask.",Closed,2 - High
+INC36304417,FALSE,UNKNOWN,Sowjanya Vasantha,CloudOps,0,Sowjanya Vasantha,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5615
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5615
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/rpa-prod-rg/providers/microsoft.compute/virtualmachines/w5615/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,25-03-2025 10:46,18-03-2025 08:51,"issue: Alert : DXC-Alarm-Major-Windows Memory Consumption (%) : Average CounterValue > 98 (5/15)
+Findings: Upon checking due to high memory, server is in hung state
+Steps taken: We checked with the RPA team and rebooted the server and now server is up and running fine.
+Remarks: NA
+Next Update: Memory is under the threshold and and now server is up and running fine.. Hence closing the incident.",Closed,2 - High
+INC36385721,TRUE,23-03-2025 22:19,Hari Hara Nandana Reddy Chinthapalli,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-23T14:43:26.8669672Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x2014
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2014
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,,23-03-2025 20:14,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,3 - Medium
+INC36320612,FALSE,UNKNOWN,Lohitha Nulu,CloudOps,0,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T01:15:37.7925844Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5825
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-eus-jumpserver-prod-rg/providers/microsoft.compute/virtualmachines/w5825
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 06:46,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36381238,TRUE,UNKNOWN,Rutuja Chavan,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine agent unresponsive or unavailable. VM could be down, hung or VM Agent not functioning
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w1782
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/sensorsvn-prod-rg/providers/microsoft.compute/virtualmachines/w1782
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/sensorsvn-prod-rg/providers/microsoft.compute/virtualmachines/w1782/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,,23-03-2025 11:03,"Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36317175,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,21700,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T18:25:07.4139072Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : w5628
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/afi-nonprod-rg/providers/microsoft.compute/virtualmachines/w5628
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 00:28,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36385038,TRUE,UNKNOWN,Sowmya Sri Manda,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Windows OS-Out of paged pool memory
+Search Query : Event | where EventID in (2019, 2020)  | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Performance', eventResource = 'Windows Virtual Machine', eventFormat = 'Event', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 The server was unable to allocate from the system paged pool because the pool was empty.
+TimeGenerated : 2025-03-23T13:21:12.0467796Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : W2720.corp.skf.net
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/qda-prod-rg/providers/microsoft.compute/virtualmachines/w2720
+eventType : Performance
+eventResource : Windows Virtual Machine
+eventFormat : Event
+eventProcessingSchema : 3.0",Alert : DXC-Major-Windows OS-Out of paged pool memory,,23-03-2025 18:52,"Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36293852,FALSE,UNKNOWN,Hari Hara Nandana Reddy Chinthapalli,CloudOps,28800,Hari Hara Nandana Reddy Chinthapalli,"Alert : DXC-Major-SelfHeal-Backup-Job Failure
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Backup-Job Failure' | where TimeGenerated >= ago(15m) and TimeGenerated < ago(10m) | extend ServerName = split(parse_json(tostring(parse_json(ProcessedAlert_s).SearchResults)).ProtectedContainerUniqueId, ';')[-1], ServerRG = split(parse_json(tostring(parse_json(ProcessedAlert_s).SearchResults)).ProtectedContainerUniqueId, ';')[-2], ResourceId = tolower(ResourceId), _ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Backup', eventResource = 'Virtual Machine', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v4.13 Self-heal attempt on backup job retry operation failed.
+TimeGenerated : 2025-03-17T11:42:59.6608577Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5471
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/wconfig-prod-rg/providers/microsoft.compute/virtualmachines/w5471
+eventType : Backup
+eventResource : Virtual Machine
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Major-SelfHeal-Backup-Job Failure,25-03-2025 18:45,17-03-2025 17:13,"Close notes: Restarted the server and triggered the backup, now backup is completed. attached the reference screenshot and closing the incident",Closed,2 - High
+INC36381307,TRUE,UNKNOWN,Rutuja Chavan,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Windows OS-Out of paged pool memory
+Search Query : Event | where EventID in (2019, 2020)  | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Performance', eventResource = 'Windows Virtual Machine', eventFormat = 'Event', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 The server was unable to allocate from the system paged pool because the pool was empty.
+TimeGenerated : 2025-03-23T05:39:23.7059451Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : W2415.corp.skf.net
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/webreise-prod-rg/providers/microsoft.compute/virtualmachines/w2415
+eventType : Performance
+eventResource : Windows Virtual Machine
+eventFormat : Event
+eventProcessingSchema : 3.0",Alert : DXC-Major-Windows OS-Out of paged pool memory,,23-03-2025 11:10,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36320079,FALSE,19-03-2025 08:01,Saranya Epuri,CloudOps,2770,Lohitha Nulu,"Alert : DXC-Critical-Log Analytics Ingestion
+Search Query : let alertResourceName = 'DXC-SKFR-dec3-loganalyticsWorkspace'; let alertResourceId = '/subscriptions/dec3dc53-6149-4f34-8430-5f684c790617/resourceGroups/DXC-Maint-RG/providers/Microsoft.Operationalinsights/workspaces/DXC-SKFR-dec3-loganalyticsWorkspace'; let ingestionDelay = time(2m); let refTime = now(); let avgPeriod = time(6h); let evalDuration = time(5m); let evalEndTime = refTime - ingestionDelay; let evalStartTime = evalEndTime - evalDuration; let detectionEndTime = evalStartTime; let detectionStartTime = detectionEndTime - evalDuration; let HBRateThreshold = 0.75; let avgHBRateTemp = Heartbeat | where TimeGenerated > ago(avgPeriod) | summarize count() by bin(TimeGenerated, 1m) |summarize avg(count_); let avgHBRate = toint(toscalar(avgHBRateTemp)); let curHBRateTemp = Heartbeat | where TimeGenerated between( evalStartTime .. evalEndTime ) | summarize count()/(evalDuration/1m); let curHBRate = toint(toscalar(curHBRateTemp)); let activeHB = Heartbeat | summarize countif(TimeGenerated between( detectionStartTime .. detectionEndTime) ) by Resource; Heartbeat | where Resource in ( activeHB ) | where TimeGenerated > detectionStartTime | extend floodWarning = iff(curHBRate < (HBRateThreshold * avgHBRate), true, false) | where floodWarning == true | extend eventType = 'Availability', eventResource = 'Log Analytics', eventFormat = 'AlertFlood', eventProcessingSchema = '3.0' | project SubscriptionId, Resource = alertResourceName, ResourceId = alertResourceId, eventType, eventResource, eventFormat, eventProcessingSchema | take 1
+Description : Version:2.6 Log Analytics Workspace ingestion alert.
+Search Start Time(UTC) : 3/18/2025 6:01:27 PM
+Search End Time(UTC) : 3/19/2025 12:01:27 AM
+AffectedConfigurationItems : [
+  ""/subscriptions/dec3dc53-6149-4f34-8430-5f684c790617/resourcegroups/dxc-maint-rg/providers/microsoft.operationalinsights/workspaces/dxc-skfr-dec3-loganalyticsworkspace""
+]
+AffectedConfigurationItems : /subscriptions/dec3dc53-6149-4f34-8430-5f684c790617/resourcegroups/dxc-maint-rg/providers/microsoft.operationalinsights/workspaces/dxc-skfr-dec3-loganalyticsworkspace
+<-- Log Entry -->
+SubscriptionId : dec3dc53-6149-4f34-8430-5f684c790617
+Resource : DXC-SKFR-dec3-loganalyticsWorkspace
+ResourceId : /subscriptions/dec3dc53-6149-4f34-8430-5f684c790617/resourceGroups/DXC-Maint-RG/providers/Microsoft.Operationalinsights/workspaces/DXC-SKFR-dec3-loganalyticsWorkspace
+eventType : Availability
+eventResource : Log Analytics
+eventFormat : AlertFlood
+eventProcessingSchema : 3.0
+<-- Log Entry -->
+
+https://portal.azure.com#@41875f2b-33e8-4670-92a8-f643afbb243a/blade/Microsoft_Azure_Monitoring_Logs/LogsBlade/source/Alerts.EmailLinks/scope/%7B%22resources%22%3A%5B%7B%22resourceId%22%3A%22%2Fsubscriptions%2Fdec3dc53-6149-4f34-8430-5f684c790617%2FresourceGroups%2FDXC-Maint-RG%2Fproviders%2FMicrosoft.Operationalinsights%2Fworkspaces%2FDXC-SKFR-dec3-loganalyticsWorkspace%22%7D%5D%7D/q/eJyVVWtvmzAU%2FSv%2BFpjiAM2rj3VSu64Pbd2qJFKnfakcc0m8GhvZJl2m%2FvjZAUogidTxDc6955x7r33hYBDhoMwEtMwVhe8kBXSOOlc%2FP%2BPp1%2BsJjoH2MZcLIghfG0b1o1TPOiMUOmeIt9PvYpcc6HyuqWKZYVLowFHEdNjHo2hwggdJf4CPB%2F0QD5PR8YCOT8JRNA5UyXCjZJ7pwOnfEyYMntwEmZIrFoPSwT2jSmqZmN6PDBRx%2FIQzodliaXTwUlkr8t%2Fnn4kFaEd0BZysrX3DUvCOUr%2BAFSQz%2B8F%2B92JioADDoyEO%2Bzg6mYXhaRidHo17YfH88lGZSFaLB1BMuo5sskbLEoEV4Vd54b4Ch%2BkW%2BEXEpWaljls269ipIcqU0du5uCFTxMdggLrXWqBB0Yrapt5J3cd%2FezmxLZot7SyXkrvCw954%2BNaOEoY0s8gtWPI5EINe0csSFCBHewPCjRVi9Ond%2FcZ1q31LpvM0JYr9BURlLozno%2FkazZl4IsZrSHRRlHbR%2B0Qscc1r5bwN95Pfqs1NU9pD6xmpKeFEeY2y%2FTKe5uq%2FejEH8wIgvNbAe73GxPcWH3jbYwqitG1h13LDXWWZ2OGv4Pay5balxxLvgPM9h8rab58qe3nctKptcranMxVmLwTyalv%2BwWO0R%2FkVwR8DIkYJlzJ%2BJErY22UrY0lSV48%2BIq99oD%2FUo%2Fa7yKgcuighXEMt36Q83wTVgrACYWbrbLNjL1aEcTJnnJl1p1tgb%2BVZ%2FJtcoItqbVUB11Klth0u3S3eaydXYQ9K2t2nrfKULiElLqrfCztW367Q37YNaLq1me%2FsFdjS2%2FkP1OhmrbcWfanpiml5bzg9ZO0VGfIMKPoH/prettify/1/timespan/2025-03-18T18%3a01%3a27.0000000Z%2f2025-03-19T00%3a01%3a27.0000000Z",Alert : DXC-Critical-Log Analytics Ingestion,26-03-2025 10:47,19-03-2025 05:43,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36275950,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,0,Lohitha Nulu,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5374
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/citrixworker-weu-prod-rg/providers/microsoft.compute/virtualmachines/w5374
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/citrixworker-weu-prod-rg/providers/microsoft.compute/virtualmachines/w5374/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,24-03-2025 07:45,16-03-2025 06:46,Closing Note: we have verified the server access the server is up and running fine and the logs are generated with the recent time stamp. Hence closing the ticket.,Closed,2 - High
+INC36316972,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,22722,Sowjanya Vasantha,"Alert : DXC-Alarm-Minor-Windows Volume Free Space between 5% and 2%: query result (Count) > 0 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where (ObjectName=='LogicalDisk' and CounterName=='% Free Space' and InstanceName!='_Total' ) | summarize Avg_Vol_Free_Space=avg(CounterValue) by CounterPath, _ResourceId, Computer | where (Avg_Vol_Free_Space<5 and Avg_Vol_Free_Space>=2)    | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Windows volume space is low
+TimeGenerated : 2025-03-18T15:35:52.2806053Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/windchill-dev-nonprod-rg/providers/microsoft.compute/virtualmachines/w5267
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/windchill-dev-nonprod-rg/providers/microsoft.compute/virtualmachines/w5267
+eventType : Capacity
+eventResource : Virtual Machine
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help></azure_help>
+",Alert : DXC-Alarm-Minor-Windows Volume Free Space between 5% and 2%: query result (Count) > 0 (5/15),26-03-2025 10:47,19-03-2025 00:11,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,3 - Medium
+INC36236581,FALSE,UNKNOWN,Hari Hara Nandana Reddy Chinthapalli,CloudOps,86400,Sowjanya Vasantha,"Alert : DXC-Major-MidServer-Discovery-Failed-SAP Production - WEU
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0627
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourceGroups/DXC-MAINT-RG/providers/Microsoft.Compute/virtualMachines/x0627
+eventType : Availability
+eventResource : MidServer
+eventFormat : ServiceNow
+eventProcessingSchema : 3.0",Alert : DXC-Major-MidServer-Discovery-Failed-SAP Production - WEU,25-03-2025 09:45,13-03-2025 13:14,"issue: Alert : DXC-Major-MidServer-Discovery-Failed-SAP Production - WEU
+Why we are cancelling the alert: Midserver is up and running but alert is retriggering, we are checking with the snow team on this, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36300614,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,17107,Rutuja Chavan,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-17T20:14:31.2916483Z
+AlertStatus : Fired
+SubscriptionId : 40b573b1-8c53-4538-ba36-a00523eda849
+Resource : x0518
+ResourceId : /subscriptions/40b573b1-8c53-4538-ba36-a00523eda849/resourcegroups/singapore-einvoice-prod-rg/providers/microsoft.compute/virtualmachines/x0518
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,25-03-2025 22:45,18-03-2025 01:44,"Close notes copied from Parent Incident: Cancelling note: We not found any issue with defender, getting false alerts, we have raised jira, hence cancelling the incidents",Closed,3 - Medium
+INC36320177,FALSE,UNKNOWN,Saranya Epuri,CloudOps,2016,Lohitha Nulu,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0587
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/basware-sftp-prod-rg/providers/microsoft.compute/virtualmachines/x0587
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/basware-sftp-prod-rg/providers/microsoft.compute/virtualmachines/x0587/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,26-03-2025 10:45,19-03-2025 05:56,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36317208,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,21516,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T18:55:06.0197359Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : x0255
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/bmtindia-nonprod-rg/providers/microsoft.compute/virtualmachines/x0255
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 00:31,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36318095,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16954,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T17:57:06.4867749Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : validate-errorforselfheal
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/dxc-maint-rg/providers/microsoft.logic/workflows/dxc-skf-cb6c-la-selfheal/runs/08584592864779702341343443906cu30/actions/validate-errorforselfheal
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 01:47,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36290480,FALSE,UNKNOWN,Sowjanya Vasantha,CloudOps,0,Sowjanya Vasantha,"Alert : DXC-Major-SQL VM-Database Error
+Search Query : Event | where EventLog == ""Application"" | where Source contains ""MSSQLSERVER"" | where EventLevelName == ""Error"" | where EventID == '204' or EventID == '5172' or EventID == '823' or EventID == '8946' or EventID == '17053' or EventID == '21' or EventID == '211' or EventID == '427' or EventID == '565' or EventID == '566' or EventID == '602' or EventID == '603' or EventID == '605' or EventID == '606' or EventID == '613' or EventID == '615' or EventID == '617' or EventID == '669' or EventID == '683' or EventID == '684' or EventID == '685' or EventID == '701' or EventID == '801' or EventID == '802' or EventID == '821' or EventID == '822' or EventID == '824' or EventID == '829' or EventID == '831' or EventID == '832' or EventID == '845' or EventID == '905' or EventID == '909' or EventID == '913' or EventID == '914' or EventID == '915' or EventID == '917' or EventID == '918' or EventID == '920' or EventID == '925' or EventID == '928' or EventID == '929' or EventID == '930' or EventID == '931' or EventID == '932' or EventID == '933' or EventID == '934' or EventID == '935' or EventID == '948' or EventID == '950' or EventID == '957' or EventID == '959' or EventID == '972' or EventID == '1101' or EventID == '1105' or EventID == '1121' or EventID == '1203' or EventID == '1204' or EventID == '1206' or EventID == '1208' or EventID == '1209' or EventID == '1210' or EventID == '1213' or EventID == '1214' or EventID == '1220' or EventID == '1221' or EventID == '1401' or EventID == '1402' or EventID == '1453' or EventID == '1454' or EventID == '1457' or EventID == '1458' or EventID == '1459' or EventID == '1501' or EventID == '1509' or EventID == '1510' or EventID == '1511' or EventID == '1522' or EventID == '1523' or EventID == '1532' or EventID == '1533' or EventID == '1534' or EventID == '1535' or EventID == '1537' or EventID == '1538' or EventID == '1803' or EventID == '1807' or EventID == '1832' or EventID == '2809' or EventID == '3012' or EventID == '3151' or EventID == '3301' or EventID == '3302' or EventID == '3313' or EventID == '3314' or EventID == '3315' or EventID == '3316' or EventID == '3411' or EventID == '3413' or EventID == '3417' or EventID == '3420' or EventID == '3431' or EventID == '3434' or EventID == '3437' or EventID == '3441' or EventID == '3442' or EventID == '3443' or EventID == '3445' or EventID == '3448' or EventID == '3449' or EventID == '3456' or EventID == '3457' or EventID == '3624' or EventID == '3625' or EventID == '3627' or EventID == '3628' or EventID == '3807' or EventID == '3864' or EventID == '3904' or EventID == '3938' or EventID == '3966' or EventID == '3967' or EventID == '3972' or EventID == '3986' or EventID == '3999' or EventID == '4014' or EventID == '4068' or EventID == '4077' or EventID == '4408' or EventID == '4803' or EventID == '4804' or EventID == '4805' or EventID == '4807' or EventID == '4894' or EventID == '4895' or EventID == '5102' or EventID == '5125' or EventID == '5128' or EventID == '5159' or EventID == '5180' or EventID == '5511' or EventID == '5515' or EventID == '5533' or EventID == '5534' or EventID == '5535' or EventID == '5536' or EventID == '5571' or EventID == '5572' or EventID == '5904' or EventID == '6559' or EventID == '6610' or EventID == '7102' or EventID == '7105' or EventID == '7108' or EventID == '7201' or EventID == '7213' or EventID == '7604' or EventID == '7606' or EventID == '7607' or EventID == '7609' or EventID == '7622' or EventID == '7629' or EventID == '7836' or EventID == '7884' or EventID == '7885' or EventID == '7886' or EventID == '7887' or EventID == '7888' or EventID == '7909' or EventID == '8440' or EventID == '8443' or EventID == '8444' or EventID == '8461' or EventID == '8502' or EventID == '8504' or EventID == '8506' or EventID == '8509' or EventID == '8510' or EventID == '8512' or EventID == '8513' or EventID == '8514' or EventID == '8515' or EventID == '8517' or EventID == '8521' or EventID == '8522' or EventID == '8532' or EventID == '8533' or EventID == '8534' or EventID == '8552' or EventID == '8553' or EventID == '8554' or EventID == '8558' or EventID == '8601' or EventID == '8606' or EventID == '8628' or EventID == '8630' or EventID == '8631' or EventID == '8632' or EventID == '8634' or EventID == '8642' or EventID == '8645' or EventID == '8646' or EventID == '8648' or EventID == '8649' or EventID == '8651' or EventID == '8657' or EventID == '8680' or EventID == '8902' or EventID == '8966' or EventID == '9002' or EventID == '9003' or EventID == '9004' or EventID == '9014' or EventID == '9015' or EventID == '9016' or EventID == '9100' or EventID == '9648' or EventID == '9657' or EventID == '9917' or EventID == '14151' or EventID == '14265' or EventID == '14713' or EventID == '15319' or EventID == '16906' or EventID == '16999' or EventID == '17310' or EventID == '17405' or EventID == '17802' or EventID == '17803' or EventID == '17805' or EventID == '17807' or EventID == '17809' or EventID == '17810' or EventID == '17813' or EventID == '17825' or EventID == '17826' or EventID == '17827' or EventID == '17828' or EventID == '17829' or EventID == '17830' or EventID == '17832' or EventID == '17835' or EventID == '17836' or EventID == '17886' or EventID == '17892' or EventID == '18002' or EventID == '18055' or EventID == '18056' or EventID == '18057' or EventID == '18058' or EventID == '18061' or EventID == '19034' or EventID == '20005' or EventID == '21512' or EventID == '21515' or EventID == '21761' or EventID == '23003' or EventID == '25601' or EventID == '25602' or EventID == '25603' or EventID == '25604' or EventID == '25605' or EventID == '25606' or EventID == '25607' or EventID == '25699' or EventID == '26040' or EventID == '26042' or EventID == '26044' or EventID == '26046' or EventID == '26050' or EventID == '30028' or EventID == '30029' or EventID == '30031' or EventID == '30038' or EventID == '30039' or EventID == '30045' or EventID == '30049' or EventID == '30061' or EventID == '30062' or EventID == '30064' or EventID == '30074' or EventID == '30089' or EventID == '30093' or EventID == '30094' or EventID == '30099' or EventID == '33201' or EventID == '33202' or EventID == '33203' or EventID == '33204' or EventID == '33206' or EventID == '33207' or EventID == '33208' or EventID == '33214' or EventID == '34101' | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId  | project-away  Computer, _ResourceId | extend eventType = 'Event Log', eventResource = 'VM SQL Database', eventFormat = 'Event', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v4.13 An error has occurred on the SQL VM database. Refer to the RenderDescription field in the description for information on the error
+TimeGenerated : 2025-03-17T06:32:13.3514325Z
+AlertStatus : Fired
+SubscriptionId : d3d844e7-ef8a-410b-bb87-b62f7da82004
+Resource : w5738.corp.skf.net
+ResourceId : /subscriptions/d3d844e7-ef8a-410b-bb87-b62f7da82004/resourcegroups/mis-prod-rg/providers/microsoft.compute/virtualmachines/w5738
+eventType : Event Log
+eventResource : VM SQL Database
+eventFormat : Event
+eventProcessingSchema : 3.0",Alert : DXC-Major-SQL VM-Database Error,24-03-2025 14:45,17-03-2025 12:03,"issue: Alert : DXC-Major-SQL VM-Database Error
+Why we are cancelling the alert: Server is up and running fine. But it is not a db server. Hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36177149,FALSE,UNKNOWN,Hari Hara Nandana Reddy Chinthapalli,CloudOps,201600,Sowjanya Vasantha,"Alert : DXC-Alarm-Major-Linux Volume used space > 98%: query result (Count) > 0 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Linux-Default']);let x = Perf | where (ObjectName == 'Logical Disk' and CounterName == '% Used Space' and InstanceName != 'total' and InstanceName != '_Total')  | join kind=inner Heartbeat on Computer | project Computer,ObjectName,CounterName,CounterPath,InstanceName,CounterValue,_ResourceId,OSName,TenantId1 ; x | extend IsSnapFileSystem = iff(OSName == 'Ubuntu' and InstanceName == '/snap', true, false)| where (IsSnapFileSystem == 'false') | extend IsSnapoFileSystem = iff(OSName == 'Ubuntu' and InstanceName startswith '/snap/', true, false)| where (IsSnapoFileSystem == 'false') | summarize Avg_Vol_Used_Space=avg(CounterValue) by CounterPath, _ResourceId, Computer,TenantId1 | where Avg_Vol_Used_Space>98 |  extend tenantid =TenantId1 | project-away TenantId1    | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Linux volume free space critically low
+TimeGenerated : 2025-03-09T08:10:21.5312285Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/iweb-nonprod-rg/providers/microsoft.compute/virtualmachines/x0709
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/iweb-nonprod-rg/providers/microsoft.compute/virtualmachines/x0709
+eventType : Capacity
+eventResource : Virtual Machine
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help></azure_help>
+",Alert : DXC-Alarm-Major-Linux Volume used space > 98%: query result (Count) > 0 (5/15),26-03-2025 14:45,09-03-2025 13:41,"Close notes: As the alert getting aged, we sent follow up mail to the ITSO, once housekeeping done, will proceed accordingly. As of now we are closing the incident.",Closed,2 - High
+INC36303832,FALSE,18-03-2025 09:46,Sowjanya Vasantha,CloudOps,0,Rutuja Chavan,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-18T02:13:16.8280541Z
+AlertStatus : Fired
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0669
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/qtsmart-prod-rg/providers/microsoft.compute/virtualmachines/x0669
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,25-03-2025 22:46,18-03-2025 07:44,"Close notes copied from Parent Incident: Cancelling note: We not found any issue with defender, getting false alerts, we have raised jira, hence cancelling the incidents",Closed,3 - Medium
+INC36316919,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,23011,Sowjanya Vasantha,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5246
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/snowflakewebinterface-prod-rg/providers/microsoft.compute/virtualmachines/w5246
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/snowflakewebinterface-prod-rg/providers/microsoft.compute/virtualmachines/w5246/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,26-03-2025 10:45,19-03-2025 00:06,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36320616,FALSE,UNKNOWN,Lohitha Nulu,CloudOps,0,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T01:15:37.7925844Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5697
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/peerlegacy-prod-rg/providers/microsoft.compute/virtualmachines/w5697
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 06:46,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36316561,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,24822,Sowjanya Vasantha,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5854
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/iscala-prod-rg/providers/microsoft.compute/virtualmachines/w5854
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/iscala-prod-rg/providers/microsoft.compute/virtualmachines/w5854/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,26-03-2025 10:47,18-03-2025 23:36,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36382893,TRUE,UNKNOWN,Rutuja Chavan,CloudOps,0,Hari Hara Nandana Reddy Chinthapalli,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : deruems001
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/lotusnotes-prod-rg/providers/microsoft.compute/virtualmachines/deruems001
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/lotusnotes-prod-rg/providers/microsoft.compute/virtualmachines/deruems001/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,,23-03-2025 14:06,"why we're cancelling the incident: This alert has been triggered as part of CHG1212228 patching activity. The server is up & running fine. Hence, we're considering this as false alert & cancelling this alert.",Resolved,2 - High
+INC36376128,FALSE,UNKNOWN,Saranya Epuri,CloudOps,0,Saranya Epuri,"Alert : DXC-Alarm-Major-Windows Volume Free Space less than 2%: query result (Count) > 0 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where (ObjectName=='LogicalDisk' and CounterName=='% Free Space' and InstanceName!='_Total' ) | summarize Avg_Vol_Free_Space=avg(CounterValue) by CounterPath, _ResourceId, Computer | where Avg_Vol_Free_Space<2    | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Windows volume free space is critically low
+TimeGenerated : 2025-03-22T20:49:59.4785123Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/so99-nonprod-rg/providers/microsoft.compute/virtualmachines/w2265
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/so99-nonprod-rg/providers/microsoft.compute/virtualmachines/w2265
+eventType : Capacity
+eventResource : Virtual Machine
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help></azure_help>
+",Alert : DXC-Alarm-Major-Windows Volume Free Space less than 2%: query result (Count) > 0 (5/15),30-03-2025 06:45,23-03-2025 02:21,"Due to patching activity, the alert got triggered. Hence, cancelling the Inc.",Closed,2 - High
+INC36385854,TRUE,23-03-2025 22:45,Sowmya Sri Manda,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-23T15:08:26.4504626Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x2016
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2016
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,,23-03-2025 20:39,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,3 - Medium
+INC36319811,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,4097,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:50:38.4218883Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x2014
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2014
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 05:21,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36360801,FALSE,UNKNOWN,Saranya Epuri,CloudOps,12145,Saranya Epuri,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine status unknown
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0756
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/hcpvaltesting-prod-rg/providers/microsoft.compute/virtualmachines/x0756
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/hcpvaltesting-prod-rg/providers/microsoft.compute/virtualmachines/x0756/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,29-03-2025 02:45,21-03-2025 23:11,Heartbeat is also responding with recent timstamp. Hence closing the Inc.,Closed,2 - High
+INC36321407,FALSE,UNKNOWN,Sowjanya Vasantha,CloudOps,0,Sowjanya Vasantha,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-19T02:44:27.623422Z
+AlertStatus : Fired
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : create_job:_agenthealth_send-datatocl
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourcegroups/dxc-maint-rg/providers/microsoft.logic/workflows/dxc-skf-13ef-la-selfheal/runs/08584592644443068659081708175cu26/actions/create_job:_agenthealth_send-datatocl
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 08:15,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,3 - Medium
+INC36299608,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,7271,Sowmya Sri Manda,"Alert : DXC-Alarm-Major-Windows CPU Utilisation (%): Average CounterValue > 98 (5/15)
+Search Query : let RuleGroupTags = dynamic(['DXC-Windows-Default']);Perf | where ObjectName == 'Processor Information' and CounterName == '% Processor Utility' and InstanceName == '_Total'    | join kind=inner hint.remote=left (arg("""").Resources
+        | where type in~ ('Microsoft.Compute/virtualMachines', 'Microsoft.HybridCompute/machines')
+        | project _ResourceId=tolower(id), tags)
+        on _ResourceId
+    | project-away _ResourceId1 | where (isnull(tags.dxcMonitored) or tolower(tostring(tags.dxcMonitored)) != 'false') and (tostring(tags.dxcMonitorRuleGroup) in (RuleGroupTags) or isnull(tags.dxcMonitorRuleGroup) or tostring(tags.dxcMonitorRuleGroup) == '')
+Description : Detect excessive CPU utilisation averaged over a time period for Windows systems
+TimeGenerated : 2025-03-17T18:31:39.8970457Z
+AlertStatus : Fired
+SubscriptionId : 6235e1a7-449d-42d6-982c-9843d96029cb
+Resource : /subscriptions/6235e1a7-449d-42d6-982c-9843d96029cb/resourcegroups/dxc-maint-rg/providers/microsoft.compute/virtualmachines/riskseavm
+ResourceId : /subscriptions/6235e1a7-449d-42d6-982c-9843d96029cb/resourcegroups/dxc-maint-rg/providers/microsoft.compute/virtualmachines/riskseavm
+eventType : Performance
+eventResource : CPU
+eventFormat : AlarmEventFormat
+eventProcessingSchema : 3.0
+Solutions : <azure_help></azure_help>
+",Alert : DXC-Alarm-Major-Windows CPU Utilisation (%): Average CounterValue > 98 (5/15),25-03-2025 02:45,18-03-2025 00:04,"Close notes copied from Parent Incident: Why we are canceling the incident: Having issue with snow, so we modified the CPU alert. As part of testing the alert got triggered. Hence, we are canceling the incident.",Closed,2 - High
+INC36317206,FALSE,UNKNOWN,Saranya Epuri,CloudOps,21523,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T18:55:06.0197359Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : w5234
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/windchill-dev-nonprod-rg/providers/microsoft.compute/virtualmachines/w5234
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 00:31,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36322987,FALSE,UNKNOWN,Lohitha Nulu,CloudOps,0,Lohitha Nulu,"Alert : DXC-Major-Logic App-DXC-SKFR-7a11-LA-SelfHeal-RunFailurePercentage
+Description : Version:release-v5.00 Run Failure Percentage has exceeded 0% in the last 30 minutes
+TimeGenerated : 2025-03-19T02:43:01.0482702Z
+AlertStatus : Resolved
+MetricDetails : [{""metricName"":""RunFailurePercentage"",""metricNamespace"":""Microsoft.Logic/workflows"",""operator"":""GreaterThan"",""threshold"":""0"",""timeAggregation"":""Average"",""dimensions"":[],""metricValue"":0,""webTestName"":null}]
+ResourceGroup : dxc-maint-rg
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : dxc-skfr-7a11-la-selfheal
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/dxc-maint-rg/providers/microsoft.logic/workflows/dxc-skfr-7a11-la-selfheal
+eventType : Availability
+eventResource : Workflow
+eventFormat : MetricAlert
+eventProcessingSchema : 3.0",Alert : DXC-Major-Logic App-DXC-SKFR-7a11-LA-SelfHeal-RunFailurePercentage,26-03-2025 15:45,19-03-2025 11:06,"Issue: DXC-Major-Logic App-DXC-SKFR-d3d8-LA-SelfHeal-RunFailurePercentage
+
+Findings: The run Failure Percentage exceeded at the time of alert was triggered.
+
+Closing notes: The Run Failure Percentage for the logic app is under the threshold now. No action is required from the cloud ops end. Hence, we are closing the incident.",Closed,2 - High
+INC36318241,FALSE,UNKNOWN,Saranya Epuri,CloudOps,16199,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T20:04:25.8697339Z
+AlertStatus : Fired
+SubscriptionId : 13ef3b04-b614-4a7f-a24f-b8a484b8a5d6
+Resource : dxc-skf-13ef-automationaccount-vmstartstop
+ResourceId : /subscriptions/13ef3b04-b614-4a7f-a24f-b8a484b8a5d6/resourcegroups/dxc-maint-rg/providers/microsoft.automation/automationaccounts/dxc-skf-13ef-automationaccount-vmstartstop
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 02:00,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36320314,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,1108,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:40:34.4742652Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w2336
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/datamyte-prod-rg/providers/microsoft.compute/virtualmachines/w2336
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 06:11,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36384944,TRUE,UNKNOWN,Sowmya Sri Manda,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-23T13:15:34.9445416Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w0735
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/solidworks-prod-rg/providers/microsoft.compute/virtualmachines/w0735
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,,23-03-2025 18:46,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,2 - High
+INC36317035,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,22449,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T16:25:09.2298345Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : w5014
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/sqlhotel-nonprod-rg/providers/microsoft.compute/virtualmachines/w5014
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 00:15,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36383758,TRUE,23-03-2025 17:58,Hari Hara Nandana Reddy Chinthapalli,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Critical-Linux-Azure Defender Stopped
+Search Query : Syslog| where SyslogMessage matches regex 'Stopped Microsoft Defender'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Stopped 
+TimeGenerated : 2025-03-23T10:26:03.3614423Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : x2006
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2006
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Stopped,,23-03-2025 15:57,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,3 - Medium
+INC36319868,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,3737,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:55:35.8905238Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5415
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/citrixworker-eus-prod-rg/providers/microsoft.compute/virtualmachines/w5415
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 05:27,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36317101,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,22075,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T17:25:08.938357Z
+AlertStatus : Fired
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : x0609
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/qmr-nonprod-rg/providers/microsoft.compute/virtualmachines/x0609
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 00:22,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36318092,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16959,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T19:57:07.8195046Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : dxc-maint-kv-cb6
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/dxc-maint-rg/providers/microsoft.keyvault/vaults/dxc-maint-kv-cb6
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:45,19-03-2025 01:47,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36332420,FALSE,UNKNOWN,Saranya Epuri,CloudOps,2803,Saranya Epuri,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T18:45:06.7838377Z
+AlertStatus : Fired
+SubscriptionId : fbe97992-fb90-4394-a962-d186cd445372
+Resource : x3008
+ResourceId : /subscriptions/fbe97992-fb90-4394-a962-d186cd445372/resourcegroups/aero-dig-nonprod-rg/providers/microsoft.compute/virtualmachines/x3008
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,27-03-2025 01:45,20-03-2025 00:16,"As per the schedule tag, server is in stopped state. Hence, closing the Inc.",Closed,2 - High
+INC36304959,FALSE,UNKNOWN,Sowjanya Vasantha,CloudOps,57600,Sowjanya Vasantha,"Alert : DXC-Major-MidServer-Discovery-Failed-DXC Migrate Non Prod - WEU
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : x0627
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourceGroups/DXC-MAINT-RG/providers/Microsoft.Compute/virtualMachines/x0627
+eventType : Availability
+eventResource : MidServer
+eventFormat : ServiceNow
+eventProcessingSchema : 3.0",Alert : DXC-Major-MidServer-Discovery-Failed-DXC Migrate Non Prod - WEU,27-03-2025 14:46,18-03-2025 09:58,"why we are cancelling this alert: Snow team worked on it, and the midserver is up and running fine. Hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36319804,FALSE,UNKNOWN,Saranya Epuri,CloudOps,4108,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:50:38.4218883Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5543
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/autodeskvault-prod-rg/providers/microsoft.compute/virtualmachines/w5543
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 05:21,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36275949,FALSE,UNKNOWN,Hari Hara Nandana Reddy Chinthapalli,CloudOps,0,Lohitha Nulu,"Alert : DXC-Major-Heartbeat Missing
+Description : Heartbeat Alert Processed by triage function
+Result : Virtual machine is healthy, but monitoring agent failed
+VM Status : null
+Agent Status : null
+SubscriptionId : b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da
+Resource : w5251
+ResourceId : /subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/citrixworker-weu-prod-rg/providers/microsoft.compute/virtualmachines/w5251
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0
+Click [code]<a href=""https://portal.azure.com/#resource/subscriptions/b05ab2f6-cec9-4de5-b932-1fc0fcf4b0da/resourcegroups/citrixworker-weu-prod-rg/providers/microsoft.compute/virtualmachines/w5251/overview"">here</a>[/code] to go to the Virtual Machine
+",Alert : DXC-Major-Heartbeat Missing,24-03-2025 07:45,16-03-2025 06:46,Closing Note: we have verified the server access the server is up and running fine and the logs are generated with the recent time stamp. Hence closing the ticket.,Closed,2 - High
+INC36319802,FALSE,UNKNOWN,Saranya Epuri,CloudOps,4109,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:50:38.4218883Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5722
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/lubricationmarketing-prod-rg/providers/microsoft.compute/virtualmachines/w5722
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:48,19-03-2025 05:21,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36302422,FALSE,18-03-2025 07:40,Sowmya Sri Manda,CloudOps,3280,Rutuja Chavan,"Alert : DXC-Critical-Linux-Azure Defender Stopped
+Search Query : Syslog| where SyslogMessage matches regex 'Stopped Microsoft Defender'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Stopped 
+TimeGenerated : 2025-03-18T00:04:24.4296444Z
+AlertStatus : Fired
+SubscriptionId : fbe97992-fb90-4394-a962-d186cd445372
+Resource : x3008
+ResourceId : /subscriptions/fbe97992-fb90-4394-a962-d186cd445372/resourcegroups/aero-dig-nonprod-rg/providers/microsoft.compute/virtualmachines/x3008
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Stopped,25-03-2025 22:45,18-03-2025 05:35,"Close notes copied from Parent Incident: Cancelling note: We not found any issue with defender, getting false alerts, we have raised jira, hence cancelling the incidents",Closed,3 - Medium
+INC36319998,FALSE,UNKNOWN,Saranya Epuri,CloudOps,3196,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:05:37.5713278Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5693
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/peerlegacy-prod-rg/providers/microsoft.compute/virtualmachines/w5693
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 05:36,"Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36356512,FALSE,UNKNOWN,Rutuja Chavan,CloudOps,0,Rutuja Chavan,"Alert : DXC-Major-EventHub-ehns-heartbeat-n36akolxt6mqa-IncomingMessages
+Description : Version:release-v5.00 0 Incoming messages received in the last 5 minutes
+TimeGenerated : 2025-03-20T23:51:01.4484238Z
+AlertStatus : Resolved
+MetricDetails : [{""metricName"":""IncomingMessages"",""metricNamespace"":""Microsoft.EventHub/namespaces"",""operator"":""LessThanOrEqual"",""threshold"":""0"",""timeAggregation"":""Average"",""dimensions"":[],""metricValue"":1,""webTestName"":null}]
+ResourceGroup : rg-dxc-heartbeat
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : ehns-heartbeat-n36akolxt6mqa
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/rg-dxc-heartbeat/providers/microsoft.eventhub/namespaces/ehns-heartbeat-n36akolxt6mqa
+eventType : Capacity
+eventResource : Events
+eventFormat : MetricAlert
+eventProcessingSchema : 3.0",Alert : DXC-Major-EventHub-ehns-heartbeat-n36akolxt6mqa-IncomingMessages,28-03-2025 17:45,21-03-2025 17:32,Cancelling note: we are not monitoring this incident hence cancelling the incident,Closed,2 - High
+INC36318096,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,16952,Lohitha Nulu,"Alert : DXC-Minor-ASR-VM Protection State
+Search Query : AzureDiagnostics | extend protectionState = column_ifexists('protectionState_s', AdditionalFields.protectionState) | where protectionState !in ('Protected', 'Protected', 'Waiting for first recovery point', 'Synchronized', 'Enabling protection', 'Initial replication is in progress') | extend ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Change', eventResource = 'Site Recovery', eventFormat = 'AzureDiagnostics', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 ASR-Azure Site Recovery has encountered an error, please check error code for additional information.
+TimeGenerated : 2025-03-18T20:02:10.1194754Z
+AlertStatus : Fired
+SubscriptionId : cb6c2c06-6671-43e1-8a8a-b273a84eda7e
+Resource : dxc-skf-cb6c-automationaccount-vmstartstop
+ResourceId : /subscriptions/cb6c2c06-6671-43e1-8a8a-b273a84eda7e/resourcegroups/dxc-maint-rg/providers/microsoft.automation/automationaccounts/dxc-skf-cb6c-automationaccount-vmstartstop
+eventType : Change
+eventResource : Site Recovery
+eventFormat : AzureDiagnostics
+eventProcessingSchema : 3.0",Alert : DXC-Minor-ASR-VM Protection State,26-03-2025 10:46,19-03-2025 01:47,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,3 - Medium
+INC36319872,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,3731,Sowjanya Vasantha,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:55:35.8905238Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w2335
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/magnetlicense-prod-rg/providers/microsoft.compute/virtualmachines/w2335
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:46,19-03-2025 05:27,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36317343,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,21039,Sowjanya Vasantha,"Alert : DXC-Major-EventHub-ehns-heartbeat-n36akolxt6mqa-IncomingMessages
+Description : Version:release-v5.00 0 Incoming messages received in the last 5 minutes
+TimeGenerated : 2025-03-18T19:05:35.3662019Z
+AlertStatus : Fired
+MetricDetails : [{""metricName"":""IncomingMessages"",""metricNamespace"":""Microsoft.EventHub/namespaces"",""operator"":""LessThanOrEqual"",""threshold"":""0"",""timeAggregation"":""Average"",""dimensions"":[],""metricValue"":0,""webTestName"":null}]
+ResourceGroup : rg-dxc-heartbeat
+SubscriptionId : 975cb004-1125-425f-99eb-e0d4f56fb429
+Resource : ehns-heartbeat-n36akolxt6mqa
+ResourceId : /subscriptions/975cb004-1125-425f-99eb-e0d4f56fb429/resourcegroups/rg-dxc-heartbeat/providers/microsoft.eventhub/namespaces/ehns-heartbeat-n36akolxt6mqa
+eventType : Capacity
+eventResource : Events
+eventFormat : MetricAlert
+eventProcessingSchema : 3.0",Alert : DXC-Major-EventHub-ehns-heartbeat-n36akolxt6mqa-IncomingMessages,26-03-2025 10:46,19-03-2025 00:39,"Close notes copied from Parent Incident: issue: Alert : DXC-Major-Selfheal-Heartbeat Missing
+Why we are cancelling the alert: Due offering upgrade v5.0 alerts got triggered, hence considering it as a false alert and cancelling the alert.",Closed,2 - High
+INC36320261,FALSE,UNKNOWN,Saranya Epuri,CloudOps,1402,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-19T00:35:36.682729Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w2345
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/ukg-prod-rg/providers/microsoft.compute/virtualmachines/w2345
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:47,19-03-2025 06:06,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36319871,FALSE,UNKNOWN,Sowmya Sri Manda,CloudOps,3731,Lohitha Nulu,"Alert : DXC-Major-Selfheal-Heartbeat Missing
+Search Query : SelfHeal_CL | where SelfhealSeverity_s == 'Major' and parse_json(ProcessedAlert_s).alertRule == 'DXC-Major-Heartbeat Missing' | extend ResourceId = tolower(ResourceId),_ResourceId = tolower(ResourceId), Resource = tolower(Resource) | extend eventType = 'Availability', eventResource = 'Virtual Machine', eventFormat = 'HeartbeatLogQuery', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:release-v5.00 Self-heal attempt on re-validating Heartbeat alert successful. Positive Alert
+TimeGenerated : 2025-03-18T23:55:35.8905238Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : w5642
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/siebensoft-prod-rg/providers/microsoft.compute/virtualmachines/w5642
+eventType : Availability
+eventResource : Virtual Machine
+eventFormat : HeartbeatLogQuery
+eventProcessingSchema : 3.0",Alert : DXC-Major-Selfheal-Heartbeat Missing,26-03-2025 10:45,19-03-2025 05:27,"Close notes copied from Parent Incident: Why we are canceling the ticket: Due to offering upgrade v5.0 alerts getting triggered, we consider them false alerts, hence canceling the tickets.",Closed,2 - High
+INC36384553,TRUE,UNKNOWN,Lohitha Nulu,CloudOps,0,Sowmya Sri Manda,"Alert : DXC-Critical-Linux-Azure Defender Uninstalled
+Search Query : Syslog| where SyslogMessage matches regex 'Removed.*mdatp.service'  | distinct TimeGenerated, Computer, EventTime, Facility, HostName, SeverityLevel, SyslogMessage, HostIP, ProcessName, Type, _ResourceId, TenantId, SourceSystem, MG | parse kind=relaxed _ResourceId with * '/subscriptions/' SubscriptionId '/resourcegroups/' * | extend Resource = Computer, ResourceId = _ResourceId | project-away  Computer, _ResourceId | extend eventType = 'Security', eventResource = 'Azure Defender', eventFormat = 'Syslog', eventProcessingSchema = '3.0'
+Description : ALARM-DEV - Version:4.13 Azure Defender For linux Uninstalled
+TimeGenerated : 2025-03-23T12:23:25.3986572Z
+AlertStatus : Fired
+SubscriptionId : 7a113fc5-cc60-4b35-a99b-012bf894c91c
+Resource : x2011
+ResourceId : /subscriptions/7a113fc5-cc60-4b35-a99b-012bf894c91c/resourcegroups/eaa-prod-rg/providers/microsoft.compute/virtualmachines/x2011
+eventType : Security
+eventResource : Azure Defender
+eventFormat : Syslog
+eventProcessingSchema : 3.0",Alert : DXC-Critical-Linux-Azure Defender Uninstalled,,23-03-2025 17:54,"Close notes copied from Parent Incident: Canceled Note: We have performed the patching activity CHG1212228, so alerts got triggered. Hence, we are canceling incidents.",Resolved,3 - Medium

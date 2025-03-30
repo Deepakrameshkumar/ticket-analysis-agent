@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, END
-from typing import Dict, Any
+from typing import Dict, Any, TypedDict
 from src.agents import (
     DataReaderAgent,
     TicketClassifierAgent,
@@ -8,12 +8,13 @@ from src.agents import (
     ReportGeneratorAgent
 )
 
-class WorkflowState:
-    def __init__(self):
-        self.data = None
-        self.error = None
-        self.summary = None
-        self.raw_data = None
+# Define the state as a TypedDict
+class WorkflowState(TypedDict):
+    data: Any  # Will hold pandas DataFrame
+    error: str
+    summary: dict
+    raw_data: dict
+    file_path: str  # Add file_path to state
 
 def create_workflow(config):
     data_reader = DataReaderAgent()
@@ -43,7 +44,5 @@ def create_workflow(config):
     return app
 
 def run_workflow(workflow, initial_state: Dict[str, Any]):
-    state = WorkflowState()
-    state.__dict__.update(initial_state)
-    result = workflow.invoke(state)
-    return result.__dict__
+    result = workflow.invoke(initial_state)
+    return result

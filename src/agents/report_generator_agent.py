@@ -2,9 +2,9 @@ import pandas as pd
 
 class ReportGeneratorAgent:
     def process(self, state):
-        if state.error:
-            return state
-        df = state.data
+        if state.get("error"):
+            return {}
+        df = state["data"]
         summary = df.groupby(['category', 'automation_complexity']).agg({
             'potential_savings': ['sum', 'count'],
             'ticket_id': 'count'
@@ -20,6 +20,7 @@ class ReportGeneratorAgent:
             labels=['Now', 'Next', 'Later']
         )
         
-        state.summary = summary.to_dict()
-        state.raw_data = df.to_dict()
-        return state
+        return {
+            "summary": summary.to_dict(),
+            "raw_data": df.to_dict()
+        }
