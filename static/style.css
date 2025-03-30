@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.report table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.report th, .report td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.chat {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}

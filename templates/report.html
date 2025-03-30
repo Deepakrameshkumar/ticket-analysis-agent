@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automation Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <h1>Automation Assessment Report</h1>
+    <div class="report">
+        {% for category in report.category.values() %}
+            <h2>{{ category }}</h2>
+            <table>
+                <tr>
+                    <th>Complexity</th>
+                    <th>Ticket Count</th>
+                    <th>Total Savings</th>
+                    <th>Priority</th>
+                </tr>
+                {% for idx in report.index %}
+                    {% if report.category[idx] == category %}
+                        <tr>
+                            <td>{{ report.automation_complexity[idx] }}</td>
+                            <td>{{ report['ticket_id']['count'][idx] }}</td>
+                            <td>${{ "%.2f"|format(report['potential_savings']['sum'][idx]) }}</td>
+                            <td>{{ report.priority[idx] }}</td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </table>
+        {% endfor %}
+    </div>
+    
+    <div class="chat">
+        <h2>Chat with Data</h2>
+        <div id="chat-messages"></div>
+        <input type="text" id="chat-input" placeholder="Ask a question...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+        
+        socket.on('response', function(msg) {
+            document.getElementById('chat-messages').innerHTML += '<p>' + msg + '</p>';
+        });
+        
+        function sendMessage() {
+            var input = document.getElementById('chat-input');
+            socket.emit('message', input.value);
+            input.value = '';
+        }
+    </script>
+</body>
+</html>

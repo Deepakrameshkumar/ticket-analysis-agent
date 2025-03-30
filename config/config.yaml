@@ -1,0 +1,20 @@
+model:
+  name: "llama2"
+  path: "path/to/llama2/model"
+data:
+  upload_dir: "data/uploads"
+categories:
+  - "Technical Support"
+  - "Billing"
+  - "Account Management"
+  - "Feature Request"
+automation_criteria:
+  easy: 
+    keywords: ["simple", "basic", "quick"]
+    max_steps: 3
+  moderate:
+    keywords: ["medium", "standard"]
+    max_steps: 6
+savings:
+  hourly_rate: 30
+  base_processing_time: 0.5
