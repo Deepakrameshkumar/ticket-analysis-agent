@@ -2,8 +2,13 @@ from flask import Flask, render_template, request
 from flask_socketio import SocketIO
 import yaml
 import os
+import logging
 from src.workflow import create_workflow, run_workflow
 from src.chat_handler import ChatHandler
+
+# Set up logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 socketio = SocketIO(app)
@@ -23,8 +28,9 @@ def index():
             file.save(filepath)
             
             initial_state = {"file_path": filepath}
+            logger.debug(f"Starting workflow with initial state: {initial_state}")
             result = run_workflow(workflow, initial_state)
-            print("Workflow result:", result)  # Debug print to see the result
+            logger.debug(f"Workflow result: {result}")
             chat_handler.set_data(result)
             
             return render_template('report.html', report=result['summary'])
@@ -37,4 +43,4 @@ def handle_message(message):
 
 if __name__ == '__main__':
     os.makedirs(config['data']['upload_dir'], exist_ok=True)
-    socketio.run(app, host='0.0.0.0', port=5000, debug=True)
+    socketio.run(app, debug=True)
