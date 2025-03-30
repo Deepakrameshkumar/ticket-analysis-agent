@@ -20,8 +20,7 @@ class TicketClassifierAgent:
             response = ollama.generate(
                 model=self.model,
                 prompt=prompt,
-                options={"max_tokens": 200},  # Increase for batch
-                timeout=30  # Add 30-second timeout per request
+                options={"max_tokens": 200}
             )
             logger.debug(f"Batch result: {response['response']}")
         except Exception as e:
@@ -37,14 +36,14 @@ class TicketClassifierAgent:
                     break
             else:
                 categories.append("Uncategorized")
-        return categories[:len(descriptions)]  # Match input length
+        return categories[:len(descriptions)]
     
     def process(self, state):
         if state.get("error"):
             return {}
         df = state["data"]
         logger.info(f"Starting batch classification of {len(df)} tickets")
-        batch_size = 10  # Process 10 rows per API call
+        batch_size = 10
         results = []
         for i in range(0, len(df), batch_size):
             batch = df['description'][i:i + batch_size].tolist()
