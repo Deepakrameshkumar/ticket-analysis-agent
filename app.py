@@ -6,7 +6,6 @@ import logging
 from src.workflow import create_workflow, run_workflow
 from src.chat_handler import ChatHandler
 
-# Set up logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
@@ -31,8 +30,11 @@ def index():
             logger.debug(f"Starting workflow with initial state: {initial_state}")
             result = run_workflow(workflow, initial_state)
             logger.debug(f"Workflow result: {result}")
-            chat_handler.set_data(result)
             
+            if 'error' in result:
+                return f"Error processing file: {result['error']}"
+            
+            chat_handler.set_data(result)
             return render_template('report.html', report=result['summary'])
     return render_template('index.html')
 
