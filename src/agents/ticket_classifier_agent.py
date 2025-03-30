@@ -27,8 +27,12 @@ class TicketClassifierAgent:
             logger.error(f"Batch classification failed: {str(e)}")
             return ["Uncategorized"] * len(descriptions)
         
-        results = response['response'].split('\n')
+        # Parse the response into lines
+        results = [line.strip() for line in response['response'].split('\n') if line.strip()]
         categories = []
+        expected_len = len(descriptions)
+        
+        # Extract categories from numbered lines (e.g., "1. Category")
         for line in results:
             for cat in self.categories:
                 if cat.lower() in line.lower():
@@ -36,7 +40,16 @@ class TicketClassifierAgent:
                     break
             else:
                 categories.append("Uncategorized")
-        return categories[:len(descriptions)]
+        
+        # Ensure length matches input by padding or truncating
+        if len(categories) < expected_len:
+            logger.warning(f"Batch returned {len(categories)} categories, expected {expected_len}. Padding with 'Uncategorized'.")
+            categories.extend(["Uncategorized"] * (expected_len - len(categories)))
+        elif len(categories) > expected_len:
+            logger.warning(f"Batch returned {len(categories)} categories, expected {expected_len}. Truncating.")
+            categories = categories[:expected_len]
+        
+        return categories
     
     def process(self, state):
         if state.get("error"):
